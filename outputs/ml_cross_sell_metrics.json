@@ -1,0 +1,23 @@
+{
+  "model": "MixedNaiveBayes",
+  "target": "client_has_2_or_more_service_lines",
+  "dataset": {
+    "rows": 82,
+    "train_rows": 61,
+    "test_rows": 21
+  },
+  "metrics": {
+    "accuracy": 0.8571,
+    "precision": 0.7,
+    "recall": 1.0,
+    "f1": 0.8235,
+    "tp": 7,
+    "tn": 11,
+    "fp": 3,
+    "fn": 0
+  },
+  "notes": [
+    "Target is a proxy label from current service adoption.",
+    "Use this as Phase 2 prioritization support, not sole decision logic."
+  ]
+}

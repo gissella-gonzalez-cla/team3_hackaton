@@ -1,0 +1,21 @@
+client_id,client_name,cross_sell_propensity_score,current_service_line_count,active_projects,relationship_degree,industry_l2,state
+C122868,King Group,1.0,1,1,0,Service Industries,CA
+C123507,Obrien-Gibbs,1.0,1,2,0,Industrials,NV
+C103600,Lakeshore County Government,0.9993,1,2,0,Public Sector,ND
+C100377,North Ridge Health Group,0.947,1,1,4,Health Care,TN
+C115847,Williams Group,0.8957,1,1,0,Public Sector,MA
+C114171,Stein-Silva,0.2075,1,0,0,Other Industries,MS
+C118014,"Trujillo, Hogan and Knight",0.0361,1,0,0,Industrials,CA
+C101820,Cascade-backed Apex Logistics LLC,0.0252,1,0,1,Industrials,CT
+C102686,Cascade-backed Coastal Hardware Co,0.0252,1,0,1,Industrials,CO
+C105993,Apex Brokerage & Logistics LLC,0.0206,1,1,0,Industrials,MO
+C106472,Hudson Freight Solutions Inc,0.0104,1,1,0,Industrials,FM
+C116788,"Gould, Marshall and Scott",0.0085,1,1,0,Other Industries,WI
+C119665,Rosales-White,0.0063,1,1,0,Other Industries,MA
+C104514,Vector Precision Industries,0.0052,1,1,0,Industrials,CT
+C107488,Magnolia Energy Holdings LLC,0.0048,1,1,1,Industrials,KS
+C122611,Garcia-Smith,0.0046,1,1,0,Health Care,MA
+C122245,"Martinez, Williams and Brown",0.0042,1,1,0,Financial Services and Real Estate,SC
+C103948,City of Pinewood,0.0041,1,1,1,Public Sector,NE
+C107646,Peachtree Industrial Partners,0.0036,1,1,1,Industrials,TX
+C119506,Keith-Sanchez,0.003,1,1,0,Service Industries,MA

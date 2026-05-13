@@ -1,0 +1,4 @@
+pursuit_id,parent_account_id,entity_client_id,entity_client_name,relationship_lead,service_line,opportunity_name,stage,estimated_value,probability_pct,risk_level,blocker,next_action,next_action_owner,next_action_due_date,last_updated_utc
+P-0001,C101295,C102490,Cascade-backed Summit Health Services,Jordan Patel,Digital,Data platform modernization,Discovery,250000,40,Medium,,Schedule technical workshop,Whitney Peters,2026-05-20,2026-05-13T00:00:00Z
+P-0002,C108091,C108282,Pinnacle Community Bank N.A.,Jordan Patel,Tax,Federal tax optimization,Proposal,180000,55,Low,,Submit fee proposal,Lauren Daniels,2026-05-22,2026-05-13T00:00:00Z
+P-0003,C100377,C101212,North Ridge Specialty Surgery LLC,Jordan Patel,Assurance,HIPAA controls attestation,Qualification,120000,35,High,Security stakeholder unavailable,Confirm stakeholder sponsor,Shannon Jones,2026-05-19,2026-05-13T00:00:00Z
