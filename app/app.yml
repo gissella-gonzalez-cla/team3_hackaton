@@ -1,14 +1,11 @@
-# Databricks Apps configuration
-# This file configures the app for deployment on Databricks Apps
-
 command:
   - "streamlit"
   - "run"
   - "app.py"
-  - "--server.port=8501"
-  - "--server.headless=true"
-  - "--server.enableCORS=false"
-  - "--server.enableXsrfProtection=false"
+  - "--server.port"
+  - "$DATABRICKS_APP_PORT"
+  - "--server.address"
+  - "0.0.0.0"
   - "--theme.primaryColor=#667eea"
   - "--theme.backgroundColor=#ffffff"
   - "--theme.secondaryBackgroundColor=#f8f9fa"
@@ -22,7 +19,3 @@ env:
     value: "crl_intelligence"
   - name: DATABRICKS_SCHEMA
     value: "prod"
-
-resources:
-  memory: "1Gi"
-  cpu: "1"
