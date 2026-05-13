@@ -1,14 +1,5 @@
 command:
-  - "streamlit"
-  - "run"
-  - "app.py"
-  - "--server.port"
-  - "$DATABRICKS_APP_PORT"
-  - "--server.address"
-  - "0.0.0.0"
-  - "--theme.primaryColor=#667eea"
-  - "--theme.backgroundColor=#ffffff"
-  - "--theme.secondaryBackgroundColor=#f8f9fa"
+  ["streamlit", "run", "app.py"]
 
 env:
   - name: DATABRICKS_HOST
