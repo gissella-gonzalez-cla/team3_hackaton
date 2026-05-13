@@ -1,0 +1,1802 @@
+field_name,sort_order,option_value
+customer_industry_level_2,1,Financial Services and Real Estate
+customer_industry_level_2,2,Health Care
+customer_industry_level_2,3,Industrials
+customer_industry_level_2,4,Other Industries
+customer_industry_level_2,5,Public Sector
+customer_industry_level_2,6,Service Industries
+customer_industry_level_3,1,"Agribusiness, Food and Beverage"
+customer_industry_level_3,2,Construction
+customer_industry_level_3,3,Employee Benefit Plans
+customer_industry_level_3,4,Federal Government
+customer_industry_level_3,5,Financial Services
+customer_industry_level_3,6,Health Care and Life Sciences
+customer_industry_level_3,7,Higher Education
+customer_industry_level_3,8,Individual Industry
+customer_industry_level_3,9,Logistics
+customer_industry_level_3,10,Manufacturing
+customer_industry_level_3,11,Nonprofit
+customer_industry_level_3,12,Private Equity
+customer_industry_level_3,13,Professional Services
+customer_industry_level_3,14,Real Estate
+customer_industry_level_3,15,Retail
+customer_industry_level_3,16,State & Local Government
+customer_industry_level_3,17,Technology
+customer_industry_level_3,18,Unknown-New Acquisition
+customer_industry_level_4,1,Aerospace and Defense
+customer_industry_level_4,2,Arts & Cultural
+customer_industry_level_4,3,Associations
+customer_industry_level_4,4,Aviation
+customer_industry_level_4,5,Banks
+customer_industry_level_4,6,Brokerage/Logistics
+customer_industry_level_4,7,Charter Schools
+customer_industry_level_4,8,Commercial Contractors
+customer_industry_level_4,9,Consumer Products
+customer_industry_level_4,10,Consumer Services
+customer_industry_level_4,11,Coops
+customer_industry_level_4,12,Credit Unions
+customer_industry_level_4,13,Dairy
+customer_industry_level_4,14,Dealerships
+customer_industry_level_4,15,Dentists
+customer_industry_level_4,16,Developers & Subdividers
+customer_industry_level_4,17,Employee Benefit Plans
+customer_industry_level_4,18,FQHC
+customer_industry_level_4,19,Fed Gov
+customer_industry_level_4,20,Field Crops and Grain
+customer_industry_level_4,21,"Financial Prof Serv Insurance Companies, Agents & Brokers"
+customer_industry_level_4,22,Food Stores/Grocery and Convenience Stores
+customer_industry_level_4,23,Food and Beverage
+customer_industry_level_4,24,For Profit Higher Education
+customer_industry_level_4,25,Forest Products and Building Materials
+customer_industry_level_4,26,Foundations
+customer_industry_level_4,27,Freight
+customer_industry_level_4,28,Fruit and Tree Nuts
+customer_industry_level_4,29,Government Higher Education
+customer_industry_level_4,30,Government Pensions
+customer_industry_level_4,31,Hardware
+customer_industry_level_4,32,Highway Heavy
+customer_industry_level_4,33,Hospitals Systems
+customer_industry_level_4,34,Housing Authority
+customer_industry_level_4,35,Independent Schools
+customer_industry_level_4,36,Individual
+customer_industry_level_4,37,Insurance
+customer_industry_level_4,38,Investor
+customer_industry_level_4,39,Lessors & Operators
+customer_industry_level_4,40,Life Science
+customer_industry_level_4,41,Livestock and Poultry
+customer_industry_level_4,42,Local or Regional Transportation Authority
+customer_industry_level_4,43,Manufacturing & Distribution Miscellaneous
+customer_industry_level_4,44,Maritime
+customer_industry_level_4,45,Metalforming and Machining
+customer_industry_level_4,46,"Municipality (County, City, Town, Village, etc.)"
+customer_industry_level_4,47,New Acquisition
+customer_industry_level_4,48,Online Retailers
+customer_industry_level_4,49,Other Contractors
+customer_industry_level_4,50,Other Governmental Entities
+customer_industry_level_4,51,Other Logistics
+customer_industry_level_4,52,Other Nonprofit Agencies
+customer_industry_level_4,53,Other Real Estate
+customer_industry_level_4,54,"Paper, Printing and Publishing"
+customer_industry_level_4,55,Passenger
+customer_industry_level_4,56,Physicians
+customer_industry_level_4,57,"Power, Energy and Infrastructure"
+customer_industry_level_4,58,Private Equity - Industry Segment
+customer_industry_level_4,59,Private Higher Education
+customer_industry_level_4,60,Prof Serv Accounting
+customer_industry_level_4,61,Prof Serv Advertising Agencies
+customer_industry_level_4,62,Prof Serv Consulting
+customer_industry_level_4,63,Prof Serv Consulting Other Services
+customer_industry_level_4,64,Prof Serv Consumer Services
+customer_industry_level_4,65,"Prof Serv Engineering, Arch & Survey"
+customer_industry_level_4,66,Prof Serv Legal Services
+customer_industry_level_4,67,Prof Serv Real Estate Broker
+customer_industry_level_4,68,Prof Serv Veterinary & Animal Services
+customer_industry_level_4,69,Religious
+customer_industry_level_4,70,Residential Contractors
+customer_industry_level_4,71,Restaurants
+customer_industry_level_4,72,"Rubber, Plastics and Chemicals"
+customer_industry_level_4,73,School Districts
+customer_industry_level_4,74,Senior Living and Care
+customer_industry_level_4,75,Services and Supply
+customer_industry_level_4,76,Social Service
+customer_industry_level_4,77,Software
+customer_industry_level_4,78,Special Districts
+customer_industry_level_4,79,Specialty & Trade Contractors
+customer_industry_level_4,80,Specialty Finance
+customer_industry_level_4,81,Specialty Retailers
+customer_industry_level_4,82,Sports & Entertainment
+customer_industry_level_4,83,State Agency
+customer_industry_level_4,84,Technology Services
+customer_industry_level_4,85,Telecommunications
+customer_industry_level_4,86,Transportation Equipment Manufacturing
+customer_industry_level_4,87,Tribal
+customer_industry_level_4,88,Trusts
+customer_industry_level_4,89,Utilities
+customer_industry_level_4,90,Warehousing
+customer_industry_level_4,91,Wholesale/Distribution
+project_service_line_level_2,1,Assurance
+project_service_line_level_2,2,Digital
+project_service_line_level_2,3,Outsourcing
+project_service_line_level_2,4,Tax
+project_service_line_level_2,5,Unknown
+project_service_line_level_3,1,Agreed Upon Procedures
+project_service_line_level_3,2,Assurance Related Consulting
+project_service_line_level_3,3,Attest Services
+project_service_line_level_3,4,Audit
+project_service_line_level_3,5,Business Tax
+project_service_line_level_3,6,CAAS
+project_service_line_level_3,7,Compilation
+project_service_line_level_3,8,Deal Services
+project_service_line_level_3,9,Digital - Cybersecurity
+project_service_line_level_3,10,Digital - Data and Automation
+project_service_line_level_3,11,Digital - Software Solutions
+project_service_line_level_3,12,Federal Tax Strategies
+project_service_line_level_3,13,"Gift, Trust and Estates"
+project_service_line_level_3,14,Individual Compliance and Consulting
+project_service_line_level_3,15,International Services - Assurance
+project_service_line_level_3,16,International Tax
+project_service_line_level_3,17,NAIT (National Acct for Inc Taxes)
+project_service_line_level_3,18,Preparation
+project_service_line_level_3,19,Prospective Financial Information
+project_service_line_level_3,20,Retirement Plan Services
+project_service_line_level_3,21,Review
+project_service_line_level_3,22,State & Local Tax (SALT)
+project_service_line_level_3,23,Talent Solutions
+project_service_line_level_3,24,Tax - National Exempt Tax (NExT)
+project_service_line_level_3,25,Tax Business Incentives Consulting
+project_service_line_level_3,26,Transaction Tax
+project_service_line_level_3,27,Unknown
+project_service_line_level_3,28,Value & Risk Services
+project_service_line_level_4,1,Acumatica
+project_service_line_level_4,2,Agreed Upon Procedures
+project_service_line_level_4,3,Assurance Related Consulting
+project_service_line_level_4,4,Attest Services
+project_service_line_level_4,5,Audit
+project_service_line_level_4,6,Audit - EBP
+project_service_line_level_4,7,Business Consulting and Planning
+project_service_line_level_4,8,Business Risk Services/SOC
+project_service_line_level_4,9,Business Tax
+project_service_line_level_4,10,Compilation
+project_service_line_level_4,11,Data and Automation
+project_service_line_level_4,12,Deal Services
+project_service_line_level_4,13,EB Third Party Admin
+project_service_line_level_4,14,Federal Tax Strategies
+project_service_line_level_4,15,"Gift, Trust and Estates"
+project_service_line_level_4,16,HR Consulting & Outsourcing
+project_service_line_level_4,17,HR Systems & Payroll
+project_service_line_level_4,18,IT and Cyber Services
+project_service_line_level_4,19,Individual Compliance and Consulting
+project_service_line_level_4,20,Intacct
+project_service_line_level_4,21,International Services
+project_service_line_level_4,22,International Tax
+project_service_line_level_4,23,NAIT (National Acct for Inc Taxes)
+project_service_line_level_4,24,Other
+project_service_line_level_4,25,Preparation
+project_service_line_level_4,26,Project - Accounting & Finance
+project_service_line_level_4,27,Prospective Financial Information
+project_service_line_level_4,28,Recurring - Accounting and Finance
+project_service_line_level_4,29,Recurring - Fund Administration
+project_service_line_level_4,30,Recurring - International Accounting and Finance
+project_service_line_level_4,31,Recurring - Outsource Services
+project_service_line_level_4,32,Recurring - Special District Accounting and Finance
+project_service_line_level_4,33,Review
+project_service_line_level_4,34,Sage
+project_service_line_level_4,35,Software Solutions
+project_service_line_level_4,36,State & Local Tax (SALT)
+project_service_line_level_4,37,Talent Solution - Search
+project_service_line_level_4,38,Tax - National Exempt Tax (NExT)
+project_service_line_level_4,39,Tax Business Incentives Consulting
+project_service_line_level_4,40,Transaction Tax
+project_service_line_level_4,41,Unknown
+project_service_line_level_4,42,"VR - Forensics, Litigation and Investigations"
+project_service_line_level_4,43,VR - ISCO - Credit Risk
+project_service_line_level_4,44,VR - ISCO - Health Care Reimbursement
+project_service_line_level_4,45,VR - ISCO - Market Research
+project_service_line_level_4,46,VR - ISCO - Mortgage Advisory
+project_service_line_level_4,47,VR - ISCO - Regulatory Compliance
+project_service_line_level_4,48,VR - Valuation
+customer_cost_center_level_2,1,Firmwide
+customer_cost_center_level_2,2,Midwest
+customer_cost_center_level_2,3,Northeast
+customer_cost_center_level_2,4,Sunbelt
+customer_cost_center_level_2,5,West
+customer_cost_center_level_3,1,CaroLantAville
+customer_cost_center_level_3,2,Central
+customer_cost_center_level_3,3,Florida
+customer_cost_center_level_3,4,Greater Chicagoland
+customer_cost_center_level_3,5,Heartland
+customer_cost_center_level_3,6,Mid-Atlantic
+customer_cost_center_level_3,7,Mountain
+customer_cost_center_level_3,8,National
+customer_cost_center_level_3,9,New England
+customer_cost_center_level_3,10,Northwest
+customer_cost_center_level_3,11,PacWest
+customer_cost_center_level_3,12,Southern CA
+customer_cost_center_level_3,13,Texas
+customer_cost_center_level_3,14,The Spoke
+customer_cost_center_level_3,15,Upper Midwest
+customer_cost_center_level_3,16,Wisconsin
+customer_cost_center_level_4,1,Atlanta
+customer_cost_center_level_4,2,Baltimore/Washington
+customer_cost_center_level_4,3,Bethlehem
+customer_cost_center_level_4,4,Central California
+customer_cost_center_level_4,5,Central Illinois
+customer_cost_center_level_4,6,Central Texas
+customer_cost_center_level_4,7,Central Wisconsin
+customer_cost_center_level_4,8,Connecticut
+customer_cost_center_level_4,9,Eastern Ohio
+customer_cost_center_level_4,10,Greater Carolinas
+customer_cost_center_level_4,11,Greater Indiana
+customer_cost_center_level_4,12,Greater Iowa
+customer_cost_center_level_4,13,Greater Missouri
+customer_cost_center_level_4,14,Greater Nevada
+customer_cost_center_level_4,15,Greater New York
+customer_cost_center_level_4,16,Greater Philadelphia
+customer_cost_center_level_4,17,Greater Southwest
+customer_cost_center_level_4,18,Greater Tampa Bay
+customer_cost_center_level_4,19,Greater Tennessee
+customer_cost_center_level_4,20,Inland Northwest
+customer_cost_center_level_4,21,Minneapolis
+customer_cost_center_level_4,22,National Resources
+customer_cost_center_level_4,23,Northern California
+customer_cost_center_level_4,24,Northern Illinois
+customer_cost_center_level_4,25,Northern Minnesota
+customer_cost_center_level_4,26,Northern Texas
+customer_cost_center_level_4,27,Northern Wisconsin
+customer_cost_center_level_4,28,Orlando
+customer_cost_center_level_4,29,Pacific Northwest
+customer_cost_center_level_4,30,Pittsburgh
+customer_cost_center_level_4,31,Rocky Mountains
+customer_cost_center_level_4,32,Southern California
+customer_cost_center_level_4,33,Southern Minnesota
+customer_cost_center_level_4,34,Southern New England
+customer_cost_center_level_4,35,Southern Texas
+customer_cost_center_level_4,36,Southern Wisconsin
+customer_cost_center_level_4,37,Southwest Florida
+customer_cost_center_level_4,38,The Spoke - Internal Facing
+customer_cost_center_level_4,39,Western Ohio
+project_cost_center_level_2,1,Firmwide
+project_cost_center_level_2,2,Midwest
+project_cost_center_level_2,3,Northeast
+project_cost_center_level_2,4,Sunbelt
+project_cost_center_level_2,5,West
+project_cost_center_level_3,1,CaroLantAville
+project_cost_center_level_3,2,Central
+project_cost_center_level_3,3,Firmwide
+project_cost_center_level_3,4,Florida
+project_cost_center_level_3,5,Greater Chicagoland
+project_cost_center_level_3,6,Heartland
+project_cost_center_level_3,7,Mid-Atlantic
+project_cost_center_level_3,8,Mountain
+project_cost_center_level_3,9,National
+project_cost_center_level_3,10,New England
+project_cost_center_level_3,11,Northwest
+project_cost_center_level_3,12,PacWest
+project_cost_center_level_3,13,Southern CA
+project_cost_center_level_3,14,Texas
+project_cost_center_level_3,15,Upper Midwest
+project_cost_center_level_3,16,Wisconsin
+project_cost_center_level_4,1,Atlanta
+project_cost_center_level_4,2,Baltimore/Washington
+project_cost_center_level_4,3,Central California
+project_cost_center_level_4,4,Central Illinois
+project_cost_center_level_4,5,Central Texas
+project_cost_center_level_4,6,Central Wisconsin
+project_cost_center_level_4,7,Connecticut
+project_cost_center_level_4,8,Eastern Ohio
+project_cost_center_level_4,9,Enterprise Business Solutions
+project_cost_center_level_4,10,Greater Carolinas
+project_cost_center_level_4,11,Greater Indiana
+project_cost_center_level_4,12,Greater Iowa
+project_cost_center_level_4,13,Greater Missouri
+project_cost_center_level_4,14,Greater Nevada
+project_cost_center_level_4,15,Greater New York
+project_cost_center_level_4,16,Greater Philadelphia
+project_cost_center_level_4,17,Greater Southwest
+project_cost_center_level_4,18,Greater Tampa Bay
+project_cost_center_level_4,19,Greater Tennessee
+project_cost_center_level_4,20,Inland Northwest
+project_cost_center_level_4,21,Minneapolis
+project_cost_center_level_4,22,National Resources
+project_cost_center_level_4,23,Northern California
+project_cost_center_level_4,24,Northern Illinois
+project_cost_center_level_4,25,Northern Minnesota
+project_cost_center_level_4,26,Northern Texas
+project_cost_center_level_4,27,Northern Wisconsin
+project_cost_center_level_4,28,Orlando
+project_cost_center_level_4,29,Pacific Northwest
+project_cost_center_level_4,30,Pittsburgh
+project_cost_center_level_4,31,Rocky Mountains
+project_cost_center_level_4,32,Southern California
+project_cost_center_level_4,33,Southern Minnesota
+project_cost_center_level_4,34,Southern New England
+project_cost_center_level_4,35,Southern Texas
+project_cost_center_level_4,36,Southern Wisconsin
+project_cost_center_level_4,37,Southwest Florida
+project_cost_center_level_4,38,Western Ohio
+project_type_name,1,"AS 001 Audit Excl SEC, GAS, EBP, FDICIA"
+project_type_name,2,AS 003 Audit Performed under GAS (excl A-133 and Hud)
+project_type_name,3,AS 004 Single Audit
+project_type_name,4,AS 005 Audit - HUD
+project_type_name,5,AS 006 Audit - EBP
+project_type_name,6,AS 007 Audit EBP (not subject to ERISA)
+project_type_name,7,AS 008 Audit - FDICIA
+project_type_name,8,AS 009 Review (Other than SEC)
+project_type_name,9,AS 011 Compilation - Full Disclosure
+project_type_name,10,AS 012 Compilation - Non-Full Disclosure
+project_type_name,11,AS 013 Other Agreed Upon Procedures (exc
+project_type_name,12,AS 014 Preparation - Full Disclosure
+project_type_name,13,AS 017 Attest Service - Other
+project_type_name,14,AS 021 Assurance Related Consulting Serv
+project_type_name,15,AS 025 Arbitrage Calculations and Reports
+project_type_name,16,AS 026 Compiled Prospective Financial Information
+project_type_name,17,AS 027 Preparation - Non-Full Disclosure
+project_type_name,18,AS 087 Examined Prospective Financial Information
+project_type_name,19,AS 093 Audit PCAOB (not SEC)
+project_type_name,20,AS 098 Audit IAS (International Audit Standards)
+project_type_name,21,DT 201 Social Engineering - Onsite
+project_type_name,22,DT 202 Social Engineering - Remote Phishing
+project_type_name,23,DT 206 Internal Vulnerability Scanning
+project_type_name,24,DT 208 Internal Penetration Testing
+project_type_name,25,DT 210 External Penetration Testing
+project_type_name,26,DT 212 External Vulnerability Scanning
+project_type_name,27,DT 214 PCI Readiness
+project_type_name,28,DT 217 FSSCC ACAT Assessment
+project_type_name,29,DT 218 M365 Assessment
+project_type_name,30,DT 230 CIS Critical Controls Assessment
+project_type_name,31,DT 238 PCI Assessment
+project_type_name,32,DT 250 General Controls Review
+project_type_name,33,DT 254 HIPAA Security Risk Analysis
+project_type_name,34,DT 261 Services non-recurring
+project_type_name,35,DT 274 Cybersecurity Specialty Service
+project_type_name,36,DT 277 IT Due Diligence
+project_type_name,37,DT 283 Cyber Technical Testing
+project_type_name,38,DT 285 Cyber Specialty Services
+project_type_name,39,DT 352 CECL Bank Trends
+project_type_name,40,DT 420 Sage Services non-recurring
+project_type_name,41,DT 429 Intacct Consulting
+project_type_name,42,DT 430 Digital Software Resale
+project_type_name,43,DT 432 SIAP Intacct Subscription
+project_type_name,44,DT 433 Intacct Implementation
+project_type_name,45,DT 434 Intacct Support
+project_type_name,46,DT 435 Intacct New Subscriptions
+project_type_name,47,DT 438 Intacct Renewal Subscriptions
+project_type_name,48,DT 441 Acumatica Services non-recurring
+project_type_name,49,DT 492 Sage Subscription recurring
+project_type_name,50,OS 219 CAAS System Services
+project_type_name,51,OS 229 Business Value Calculation
+project_type_name,52,OS 234 Enhanced Managed Services
+project_type_name,53,OS 255 Gift Tax Valuation
+project_type_name,54,OS 259 Other Business Valuations
+project_type_name,55,OS 263 Forensic Accounting
+project_type_name,56,OS 265 Valuation Litigation Support
+project_type_name,57,OS 266 Independent Investigations
+project_type_name,58,OS 270 Computer Forensics
+project_type_name,59,OS 271 Internal Audit
+project_type_name,60,OS 273 Sell Side Transactions
+project_type_name,61,OS 276 Buy Side Transactions
+project_type_name,62,OS 278 Fair Value 805
+project_type_name,63,OS 279 Fair Value 350/360
+project_type_name,64,OS 281 PMI – Audit Readiness
+project_type_name,65,OS 288 Owner Transition Services
+project_type_name,66,OS 290 SOC 1
+project_type_name,67,OS 297 SOC 2
+project_type_name,68,OS 300 Strategic Planning
+project_type_name,69,OS 301 Plan Valuation
+project_type_name,70,OS 304 Strategic and Capital Planning
+project_type_name,71,OS 306 Plan Administration
+project_type_name,72,OS 310 Professional Search Retained
+project_type_name,73,OS 316 Executive Recruiting
+project_type_name,74,OS 319 HC Medicaid Cost Report Preparation
+project_type_name,75,OS 321 HC Medicaid Reimbursement Consultation
+project_type_name,76,OS 325 HC Medicare Cost Report Preparation
+project_type_name,77,OS 326 HC Medicare Reimbursement Consultation
+project_type_name,78,OS 329 Market Research
+project_type_name,79,OS 335 FI Regulatory Compliance
+project_type_name,80,OS 336 FI Internal Audits
+project_type_name,81,OS 337 FI Loan Review
+project_type_name,82,OS 338 FI Regulatory Compliance Consulting
+project_type_name,83,OS 339 Fair Lending or CRA
+project_type_name,84,OS 350 AML/CFT Independent Testing
+project_type_name,85,OS 351 BA Quality Control
+project_type_name,86,OS 357 AML Model Validation
+project_type_name,87,OS 362 Operational Planning
+project_type_name,88,OS 365 Student Financial Aid Assistance
+project_type_name,89,OS 370 ACA Reporting Forms 1095/1094
+project_type_name,90,OS 397 Model Validation Consulting
+project_type_name,91,OS 398 Consulting Services
+project_type_name,92,OS 401 SD Public Administration Services
+project_type_name,93,OS 409 SD Prospective Financials Forecast
+project_type_name,94,OS 410 CAAS Assessments
+project_type_name,95,OS 411 SD Billing Services
+project_type_name,96,OS 412 Fund Admin CAAS with Financials
+project_type_name,97,OS 413 SD PIF
+project_type_name,98,OS 417 SD CAAS with Financials
+project_type_name,99,OS 422 CAAS Client Onboarding
+project_type_name,100,OS 426 Other Services
+project_type_name,101,OS 427 1099 Information Returns
+project_type_name,102,OS 439 Assist to Prepare
+project_type_name,103,OS 440 CAAS with Financials
+project_type_name,104,OS 441 Global SSARS Preparation
+project_type_name,105,OS 444 HUB Payroll Out of Scope
+project_type_name,106,OS 446 ADP-Other Payroll Processing not yet Transitioned
+project_type_name,107,OS 447 Small Account Payroll Processing
+project_type_name,108,OS 448 ADP WFN Payroll Processing
+project_type_name,109,OS 449 SSARS Compilation
+project_type_name,110,OS 452 iSolved Payroll Processing
+project_type_name,111,OS 454 iSolved Implementations
+project_type_name,112,OS 456 ATF Payroll Processing
+project_type_name,113,OS 458 Accounting Tax Services
+project_type_name,114,OS 460 Taxable Software Subscription Fees
+project_type_name,115,OS 461 Payroll Consultation
+project_type_name,116,OS 462 CAAS Service Fee
+project_type_name,117,OS 463 Talent Solutions Service Fee
+project_type_name,118,OS 466 Small Account Payroll Implementation
+project_type_name,119,OS 472 HR On-going Consulting
+project_type_name,120,OS 474 TR Compensation
+project_type_name,121,OS 477 CAAS Technical Accounting
+project_type_name,122,"OS 481 CAST Technical Accounting: Leasing (ASC 842, GASB 87, IFRS 16)"
+project_type_name,123,OS 485 CAAS General Accounting Assistance
+project_type_name,124,OS 486 CAAS Tax Assistance
+project_type_name,125,OS 490 CAAS without Financials
+project_type_name,126,OS 503 CAST Payroll Department Assistance
+project_type_name,127,SAS 221 Implementation Advisory
+project_type_name,128,TX 111 5500 Compliance
+project_type_name,129,TX 113 990 Compliance - Qualified Plans
+project_type_name,130,TX 115 990-T Compliance
+project_type_name,131,TX 116 990-PF Compliance
+project_type_name,132,TX 117 990 Compliance - Tax Exempts
+project_type_name,133,TX 119 Tax-Exempt Consulting - Tax-Exempts
+project_type_name,134,TX 121 NAIT - Tax Compliance
+project_type_name,135,TX 122 PCAM
+project_type_name,136,TX 124 Transaction Cost Analysis
+project_type_name,137,TX 126 ASC 740
+project_type_name,138,TX 127 1040 Compliance
+project_type_name,139,TX 128 Tax Legislative Consulting
+project_type_name,140,TX 129 1120 Compliance
+project_type_name,141,TX 130 1120S Compliance
+project_type_name,142,TX 131 1065 Compliance
+project_type_name,143,TX 132 Property Tax Compliance
+project_type_name,144,TX 133 Other Income Tax Compliance
+project_type_name,145,TX 134 1041 Compliance
+project_type_name,146,TX 135 Fiduciary Tax Consulting
+project_type_name,147,TX 139 179d Studies
+project_type_name,148,TX 140 R_D Credits
+project_type_name,149,TX 141 Energy Tax and Credits
+project_type_name,150,TX 142 Compensation & Benefits Tax
+project_type_name,151,TX 143 Individual Tax Consulting
+project_type_name,152,TX 145 Cost Segregation Studies
+project_type_name,153,TX 148 Business Tax Consulting
+project_type_name,154,TX 150 1099 Information Returns
+project_type_name,155,TX 151 Negotiated Incentives
+project_type_name,156,TX 152 Work Opportunity Tax Credit Services
+project_type_name,157,TX 155 706 Compliance
+project_type_name,158,TX 156 709 Compliance
+project_type_name,159,TX 158 Employee Retention Credit Consulting
+project_type_name,160,TX 159 Transaction Tax-Other Consulting
+project_type_name,161,TX 162 Transaction Tax-Due Diligence-Buy Side
+project_type_name,162,TX 163 Transaction Tax-Due Diligence-Sell Side
+project_type_name,163,TX 164 Accounting Methods
+project_type_name,164,TX 165 International Individual Tax Compliance
+project_type_name,165,TX 166 Telecom Regulatory Compliance
+project_type_name,166,TX 167 Telecom Indirect Tax Compliance
+project_type_name,167,TX 168 Exemption Management
+project_type_name,168,TX 169 State Registration Services
+project_type_name,169,TX 170 International Business Tax Compliance
+project_type_name,170,TX 173 International Tax Consulting
+project_type_name,171,TX 176 Sec. 174 R and E Consulting
+project_type_name,172,TX 177 IC DISC Non-Vantage Point
+project_type_name,173,TX 179 Expatriate Tax Services
+project_type_name,174,TX 180 LIHTC Tax Compliance
+project_type_name,175,TX 181 LIHTC Tax Consulting
+project_type_name,176,TX 182 K2/K3
+project_type_name,177,TX 184 Sales Tax Outsourcing
+project_type_name,178,TX 185 SURE-Reverse Audit (non-contingent)
+project_type_name,179,TX 187 State and Local Exams and Controversy
+project_type_name,180,TX 188 SALT Consulting
+project_type_name,181,TX 189 SALT Transaction Services
+project_type_name,182,TX 194 Pass Through Entity - PTE
+project_type_name,183,TX 198 IRS Exams and Appeals
+project_type_name,184,Unknown
+project_sic_code,1,0111
+project_sic_code,2,0112
+project_sic_code,3,0115
+project_sic_code,4,0116
+project_sic_code,5,0119
+project_sic_code,6,0134
+project_sic_code,7,0139
+project_sic_code,8,0161
+project_sic_code,9,0171
+project_sic_code,10,0172
+project_sic_code,11,0173
+project_sic_code,12,0174
+project_sic_code,13,0175
+project_sic_code,14,0179
+project_sic_code,15,0181
+project_sic_code,16,0182
+project_sic_code,17,0191
+project_sic_code,18,0211
+project_sic_code,19,0212
+project_sic_code,20,0213
+project_sic_code,21,0214
+project_sic_code,22,0219
+project_sic_code,23,0241
+project_sic_code,24,0252
+project_sic_code,25,0259
+project_sic_code,26,0272
+project_sic_code,27,0291
+project_sic_code,28,0711
+project_sic_code,29,0721
+project_sic_code,30,0722
+project_sic_code,31,0723
+project_sic_code,32,0741
+project_sic_code,33,0742
+project_sic_code,34,0751
+project_sic_code,35,0752
+project_sic_code,36,0761
+project_sic_code,37,0762
+project_sic_code,38,0781
+project_sic_code,39,0782
+project_sic_code,40,0811
+project_sic_code,41,0831
+project_sic_code,42,0912
+project_sic_code,43,0971
+project_sic_code,44,0999
+project_sic_code,45,1041
+project_sic_code,46,1081
+project_sic_code,47,1094
+project_sic_code,48,1306A
+project_sic_code,49,1311
+project_sic_code,50,1321
+project_sic_code,51,1381
+project_sic_code,52,1382
+project_sic_code,53,1389
+project_sic_code,54,1442
+project_sic_code,55,1481
+project_sic_code,56,1521
+project_sic_code,57,1522
+project_sic_code,58,1531
+project_sic_code,59,1531A
+project_sic_code,60,1531B
+project_sic_code,61,1531C
+project_sic_code,62,1541
+project_sic_code,63,1542
+project_sic_code,64,1611
+project_sic_code,65,1622
+project_sic_code,66,1623
+project_sic_code,67,1629
+project_sic_code,68,1711
+project_sic_code,69,1721
+project_sic_code,70,1731
+project_sic_code,71,1741
+project_sic_code,72,1742
+project_sic_code,73,1751
+project_sic_code,74,1752
+project_sic_code,75,1761
+project_sic_code,76,1771
+project_sic_code,77,1781
+project_sic_code,78,1791
+project_sic_code,79,1793
+project_sic_code,80,1794
+project_sic_code,81,1795
+project_sic_code,82,1796
+project_sic_code,83,1799
+project_sic_code,84,1799A
+project_sic_code,85,2011
+project_sic_code,86,2022
+project_sic_code,87,2023
+project_sic_code,88,2032
+project_sic_code,89,2034
+project_sic_code,90,2035
+project_sic_code,91,2038
+project_sic_code,92,2048
+project_sic_code,93,2051
+project_sic_code,94,2063
+project_sic_code,95,2064
+project_sic_code,96,2082
+project_sic_code,97,2084
+project_sic_code,98,2085
+project_sic_code,99,2086
+project_sic_code,100,2087
+project_sic_code,101,2095
+project_sic_code,102,2096
+project_sic_code,103,2097
+project_sic_code,104,2099
+project_sic_code,105,2273
+project_sic_code,106,2281
+project_sic_code,107,2299
+project_sic_code,108,2335
+project_sic_code,109,2361
+project_sic_code,110,2381
+project_sic_code,111,2385
+project_sic_code,112,2389
+project_sic_code,113,2392
+project_sic_code,114,2396
+project_sic_code,115,2411
+project_sic_code,116,2421
+project_sic_code,117,2426
+project_sic_code,118,2429
+project_sic_code,119,2431
+project_sic_code,120,2434
+project_sic_code,121,2436
+project_sic_code,122,2448
+project_sic_code,123,2449
+project_sic_code,124,2451
+project_sic_code,125,2452
+project_sic_code,126,2499
+project_sic_code,127,2511
+project_sic_code,128,2515
+project_sic_code,129,2521
+project_sic_code,130,2531
+project_sic_code,131,2542
+project_sic_code,132,2599
+project_sic_code,133,2621
+project_sic_code,134,2631
+project_sic_code,135,2652
+project_sic_code,136,2655
+project_sic_code,137,2671
+project_sic_code,138,2675
+project_sic_code,139,2676
+project_sic_code,140,2678
+project_sic_code,141,2679
+project_sic_code,142,2711
+project_sic_code,143,2721
+project_sic_code,144,2731
+project_sic_code,145,2741
+project_sic_code,146,2752
+project_sic_code,147,2759
+project_sic_code,148,2789
+project_sic_code,149,2816
+project_sic_code,150,2819
+project_sic_code,151,2821
+project_sic_code,152,2822
+project_sic_code,153,2833
+project_sic_code,154,2834
+project_sic_code,155,2835
+project_sic_code,156,2836
+project_sic_code,157,2841
+project_sic_code,158,2842
+project_sic_code,159,2851
+project_sic_code,160,2869
+project_sic_code,161,2873
+project_sic_code,162,2875
+project_sic_code,163,2879
+project_sic_code,164,2891
+project_sic_code,165,2952
+project_sic_code,166,2992
+project_sic_code,167,2999
+project_sic_code,168,3053
+project_sic_code,169,3069
+project_sic_code,170,3081
+project_sic_code,171,3083
+project_sic_code,172,3084
+project_sic_code,173,3086
+project_sic_code,174,3089
+project_sic_code,175,3149
+project_sic_code,176,3211
+project_sic_code,177,3231
+project_sic_code,178,3253
+project_sic_code,179,3271
+project_sic_code,180,3272
+project_sic_code,181,3273
+project_sic_code,182,3281
+project_sic_code,183,3291
+project_sic_code,184,3299
+project_sic_code,185,3313
+project_sic_code,186,3315
+project_sic_code,187,3316
+project_sic_code,188,3317
+project_sic_code,189,3322
+project_sic_code,190,3325
+project_sic_code,191,3339
+project_sic_code,192,3398
+project_sic_code,193,3399
+project_sic_code,194,3423
+project_sic_code,195,3429
+project_sic_code,196,3432
+project_sic_code,197,3433
+project_sic_code,198,3441
+project_sic_code,199,3442
+project_sic_code,200,3444
+project_sic_code,201,3449
+project_sic_code,202,3452
+project_sic_code,203,3462
+project_sic_code,204,3469
+project_sic_code,205,3471
+project_sic_code,206,3479
+project_sic_code,207,3482
+project_sic_code,208,3483
+project_sic_code,209,3492
+project_sic_code,210,3495
+project_sic_code,211,3496
+project_sic_code,212,3498
+project_sic_code,213,3499
+project_sic_code,214,3511
+project_sic_code,215,3519
+project_sic_code,216,3531
+project_sic_code,217,3533
+project_sic_code,218,3534
+project_sic_code,219,3535
+project_sic_code,220,3536
+project_sic_code,221,3537
+project_sic_code,222,3541
+project_sic_code,223,3542
+project_sic_code,224,3543
+project_sic_code,225,3544
+project_sic_code,226,3545
+project_sic_code,227,3549
+project_sic_code,228,3555
+project_sic_code,229,3556
+project_sic_code,230,3559
+project_sic_code,231,3561
+project_sic_code,232,3563
+project_sic_code,233,3564
+project_sic_code,234,3565
+project_sic_code,235,3567
+project_sic_code,236,3568
+project_sic_code,237,3569
+project_sic_code,238,3571
+project_sic_code,239,3575
+project_sic_code,240,3577
+project_sic_code,241,3577B
+project_sic_code,242,3578
+project_sic_code,243,3579
+project_sic_code,244,3582
+project_sic_code,245,3585
+project_sic_code,246,3593
+project_sic_code,247,3594
+project_sic_code,248,3596
+project_sic_code,249,3599
+project_sic_code,250,3612
+project_sic_code,251,3624
+project_sic_code,252,3629
+project_sic_code,253,3639
+project_sic_code,254,3645
+project_sic_code,255,3646
+project_sic_code,256,3661
+project_sic_code,257,3663
+project_sic_code,258,3669
+project_sic_code,259,3672
+project_sic_code,260,3674
+project_sic_code,261,3676
+project_sic_code,262,3677
+project_sic_code,263,3679
+project_sic_code,264,3691
+project_sic_code,265,3694
+project_sic_code,266,3695
+project_sic_code,267,3699
+project_sic_code,268,3714
+project_sic_code,269,3724
+project_sic_code,270,3728
+project_sic_code,271,3732
+project_sic_code,272,3743
+project_sic_code,273,3795
+project_sic_code,274,3799
+project_sic_code,275,3822
+project_sic_code,276,3823
+project_sic_code,277,3825
+project_sic_code,278,3826
+project_sic_code,279,3827
+project_sic_code,280,3829
+project_sic_code,281,3841
+project_sic_code,282,3842
+project_sic_code,283,3843
+project_sic_code,284,3845
+project_sic_code,285,3861
+project_sic_code,286,3911
+project_sic_code,287,3931
+project_sic_code,288,3942
+project_sic_code,289,3944
+project_sic_code,290,3949
+project_sic_code,291,3993
+project_sic_code,292,3995
+project_sic_code,293,3999
+project_sic_code,294,4141
+project_sic_code,295,4142
+project_sic_code,296,4212
+project_sic_code,297,4213
+project_sic_code,298,4213A
+project_sic_code,299,4213B
+project_sic_code,300,4213D
+project_sic_code,301,4213E
+project_sic_code,302,4213F
+project_sic_code,303,4214
+project_sic_code,304,4221
+project_sic_code,305,4222
+project_sic_code,306,4225
+project_sic_code,307,4226
+project_sic_code,308,4491
+project_sic_code,309,4499
+project_sic_code,310,4512
+project_sic_code,311,4522
+project_sic_code,312,4581
+project_sic_code,313,4619
+project_sic_code,314,4724
+project_sic_code,315,4725
+project_sic_code,316,4729
+project_sic_code,317,4731
+project_sic_code,318,4783
+project_sic_code,319,4785
+project_sic_code,320,4789
+project_sic_code,321,4812
+project_sic_code,322,4813A
+project_sic_code,323,4813C
+project_sic_code,324,4813D
+project_sic_code,325,4832
+project_sic_code,326,4841
+project_sic_code,327,4899
+project_sic_code,328,4911
+project_sic_code,329,4919
+project_sic_code,330,4925
+project_sic_code,331,4931
+project_sic_code,332,4941
+project_sic_code,333,4952
+project_sic_code,334,4953
+project_sic_code,335,4959
+project_sic_code,336,5012
+project_sic_code,337,5013
+project_sic_code,338,5014
+project_sic_code,339,5021
+project_sic_code,340,5023
+project_sic_code,341,5031
+project_sic_code,342,5033
+project_sic_code,343,5039
+project_sic_code,344,5044
+project_sic_code,345,5045
+project_sic_code,346,5046
+project_sic_code,347,5047
+project_sic_code,348,5048
+project_sic_code,349,5049
+project_sic_code,350,5051
+project_sic_code,351,5063
+project_sic_code,352,5064
+project_sic_code,353,5065
+project_sic_code,354,5072
+project_sic_code,355,5074
+project_sic_code,356,5075
+project_sic_code,357,5078
+project_sic_code,358,5083
+project_sic_code,359,5084
+project_sic_code,360,5085
+project_sic_code,361,5087
+project_sic_code,362,5088
+project_sic_code,363,5091
+project_sic_code,364,5092
+project_sic_code,365,5093
+project_sic_code,366,5094
+project_sic_code,367,5099
+project_sic_code,368,5111
+project_sic_code,369,5112
+project_sic_code,370,5122
+project_sic_code,371,5131
+project_sic_code,372,5141
+project_sic_code,373,5142
+project_sic_code,374,5143
+project_sic_code,375,5146
+project_sic_code,376,5147
+project_sic_code,377,5148
+project_sic_code,378,5149
+project_sic_code,379,5153
+project_sic_code,380,5154
+project_sic_code,381,5159
+project_sic_code,382,5162
+project_sic_code,383,5169
+project_sic_code,384,5172
+project_sic_code,385,5181
+project_sic_code,386,5182
+project_sic_code,387,5191
+project_sic_code,388,5193
+project_sic_code,389,5194
+project_sic_code,390,5199
+project_sic_code,391,5211
+project_sic_code,392,5251
+project_sic_code,393,5261
+project_sic_code,394,5311
+project_sic_code,395,531120
+project_sic_code,396,5399
+project_sic_code,397,5411
+project_sic_code,398,5421
+project_sic_code,399,5431
+project_sic_code,400,5461
+project_sic_code,401,5499
+project_sic_code,402,5511
+project_sic_code,403,5511A
+project_sic_code,404,5511B
+project_sic_code,405,5511C
+project_sic_code,406,5511E
+project_sic_code,407,5521
+project_sic_code,408,5531
+project_sic_code,409,5541
+project_sic_code,410,5561
+project_sic_code,411,5571
+project_sic_code,412,5599
+project_sic_code,413,5611
+project_sic_code,414,5621
+project_sic_code,415,5651
+project_sic_code,416,5661
+project_sic_code,417,5699
+project_sic_code,418,5712
+project_sic_code,419,5713
+project_sic_code,420,5719
+project_sic_code,421,5722
+project_sic_code,422,5731
+project_sic_code,423,5734
+project_sic_code,424,5734A
+project_sic_code,425,5734E
+project_sic_code,426,5734F
+project_sic_code,427,5736
+project_sic_code,428,5812
+project_sic_code,429,5813
+project_sic_code,430,5912
+project_sic_code,431,5921
+project_sic_code,432,5932
+project_sic_code,433,5941
+project_sic_code,434,5942
+project_sic_code,435,5944
+project_sic_code,436,5945
+project_sic_code,437,5947
+project_sic_code,438,5961
+project_sic_code,439,5962
+project_sic_code,440,5963
+project_sic_code,441,5983
+project_sic_code,442,5995
+project_sic_code,443,5999
+project_sic_code,444,6011
+project_sic_code,445,6021
+project_sic_code,446,6022
+project_sic_code,447,6029
+project_sic_code,448,6061
+project_sic_code,449,6061A
+project_sic_code,450,6062
+project_sic_code,451,6081
+project_sic_code,452,6099
+project_sic_code,453,6141
+project_sic_code,454,6159
+project_sic_code,455,6162
+project_sic_code,456,6199
+project_sic_code,457,6211
+project_sic_code,458,621111
+project_sic_code,459,6211A
+project_sic_code,460,6211B
+project_sic_code,461,621493
+project_sic_code,462,621512
+project_sic_code,463,6221
+project_sic_code,464,6282
+project_sic_code,465,6311
+project_sic_code,466,6324
+project_sic_code,467,6331
+project_sic_code,468,6361
+project_sic_code,469,6371
+project_sic_code,470,6399
+project_sic_code,471,6411
+project_sic_code,472,6512
+project_sic_code,473,6513
+project_sic_code,474,6514
+project_sic_code,475,6515
+project_sic_code,476,6517
+project_sic_code,477,6519
+project_sic_code,478,6531
+project_sic_code,479,6541
+project_sic_code,480,6552
+project_sic_code,481,6712
+project_sic_code,482,6719
+project_sic_code,483,6722
+project_sic_code,484,6726
+project_sic_code,485,6732
+project_sic_code,486,6733
+project_sic_code,487,6798
+project_sic_code,488,6799
+project_sic_code,489,7011
+project_sic_code,490,7011G
+project_sic_code,491,7032
+project_sic_code,492,7212
+project_sic_code,493,7213
+project_sic_code,494,7215
+project_sic_code,495,7217
+project_sic_code,496,7218
+project_sic_code,497,7219
+project_sic_code,498,7231
+project_sic_code,499,7241
+project_sic_code,500,7261
+project_sic_code,501,7291
+project_sic_code,502,7299
+project_sic_code,503,7311
+project_sic_code,504,7313
+project_sic_code,505,7319
+project_sic_code,506,7322
+project_sic_code,507,7323
+project_sic_code,508,7335
+project_sic_code,509,7336
+project_sic_code,510,7342
+project_sic_code,511,7349
+project_sic_code,512,7352
+project_sic_code,513,7353
+project_sic_code,514,7359
+project_sic_code,515,7361
+project_sic_code,516,7363
+project_sic_code,517,7371
+project_sic_code,518,7372
+project_sic_code,519,7373
+project_sic_code,520,7374
+project_sic_code,521,7375
+project_sic_code,522,7376
+project_sic_code,523,7378
+project_sic_code,524,7379
+project_sic_code,525,7389
+project_sic_code,526,7513
+project_sic_code,527,7519
+project_sic_code,528,7532
+project_sic_code,529,7534
+project_sic_code,530,7536
+project_sic_code,531,7538
+project_sic_code,532,7539
+project_sic_code,533,7549
+project_sic_code,534,7699
+project_sic_code,535,7812
+project_sic_code,536,7819
+project_sic_code,537,7832
+project_sic_code,538,7911
+project_sic_code,539,7922
+project_sic_code,540,7929
+project_sic_code,541,7933
+project_sic_code,542,7941
+project_sic_code,543,7941A
+project_sic_code,544,7948
+project_sic_code,545,7991
+project_sic_code,546,7992
+project_sic_code,547,7993
+project_sic_code,548,7997
+project_sic_code,549,7999
+project_sic_code,550,8011
+project_sic_code,551,8011A
+project_sic_code,552,8011B
+project_sic_code,553,8021
+project_sic_code,554,8041
+project_sic_code,555,8042
+project_sic_code,556,8043
+project_sic_code,557,8049
+project_sic_code,558,8051
+project_sic_code,559,8051A
+project_sic_code,560,8059
+project_sic_code,561,8059A
+project_sic_code,562,8059B
+project_sic_code,563,8059C
+project_sic_code,564,8059D
+project_sic_code,565,8059E
+project_sic_code,566,8062
+project_sic_code,567,8062A
+project_sic_code,568,8063
+project_sic_code,569,8063A
+project_sic_code,570,8069
+project_sic_code,571,8069A
+project_sic_code,572,8071
+project_sic_code,573,8072
+project_sic_code,574,8082
+project_sic_code,575,8092
+project_sic_code,576,8093
+project_sic_code,577,8099
+project_sic_code,578,8099A
+project_sic_code,579,8099B
+project_sic_code,580,8099C
+project_sic_code,581,8111
+project_sic_code,582,8211
+project_sic_code,583,8221
+project_sic_code,584,8222
+project_sic_code,585,8231
+project_sic_code,586,8243
+project_sic_code,587,8244
+project_sic_code,588,8249
+project_sic_code,589,8299
+project_sic_code,590,8322
+project_sic_code,591,8331
+project_sic_code,592,8351
+project_sic_code,593,8361
+project_sic_code,594,8361A
+project_sic_code,595,8399
+project_sic_code,596,8399A
+project_sic_code,597,8399B
+project_sic_code,598,8412
+project_sic_code,599,8422
+project_sic_code,600,8611
+project_sic_code,601,8621
+project_sic_code,602,8631
+project_sic_code,603,8641
+project_sic_code,604,8651
+project_sic_code,605,8661
+project_sic_code,606,8699
+project_sic_code,607,8711
+project_sic_code,608,8712
+project_sic_code,609,8713
+project_sic_code,610,8721
+project_sic_code,611,8731
+project_sic_code,612,8732
+project_sic_code,613,8733
+project_sic_code,614,8734
+project_sic_code,615,8741
+project_sic_code,616,8742
+project_sic_code,617,8743
+project_sic_code,618,8744
+project_sic_code,619,8748
+project_sic_code,620,8748A
+project_sic_code,621,8748B
+project_sic_code,622,8811
+project_sic_code,623,8999
+project_sic_code,624,9111A
+project_sic_code,625,9199S
+project_sic_code,626,9223B
+project_sic_code,627,9224
+project_sic_code,628,9311S
+project_sic_code,629,9312S
+project_sic_code,630,9411D
+project_sic_code,631,9411E
+project_sic_code,632,9411S
+project_sic_code,633,9431B
+project_sic_code,634,9431S
+project_sic_code,635,9511B
+project_sic_code,636,9531B
+project_sic_code,637,9611B
+project_sic_code,638,9621S
+project_sic_code,639,9631B
+project_sic_code,640,9631S
+project_sic_code,641,9651B
+project_sic_code,642,9999B
+project_sic_code,643,9999C
+project_sic_code,644,9999D
+project_sic_code,645,9999E
+project_sic_code,646,9999F
+project_sic_code,647,9999H
+project_sic_code,648,9999I
+project_sic_code,649,9999J
+project_sic_code,650,99ZZZ
+project_sic_code,651,Unknown
+project_sic_code_name,1,0111 - AG-Wheat AGRIPRD/CSH
+project_sic_code_name,2,0112 - AG-Rice
+project_sic_code_name,3,0115 - AG-Corn
+project_sic_code_name,4,0116 - AG-Soybeans
+project_sic_code_name,5,"0119 - AG-Cash Grains, nec"
+project_sic_code_name,6,0134 - AG-Potatoes
+project_sic_code_name,7,0139 - AG-Field Crops nec
+project_sic_code_name,8,0161 - AG-VEGETABLE & MELON
+project_sic_code_name,9,0171 - AG-BerryFRUIT/TREENT
+project_sic_code_name,10,0172 - AG-Grapes
+project_sic_code_name,11,0173 - AG-Tree Nuts
+project_sic_code_name,12,0174 - AG-Citrus Fruits
+project_sic_code_name,13,0175 - AG-DeciduosTreeFruit
+project_sic_code_name,14,0179 - AG-Fruit/TreeNut nec
+project_sic_code_name,15,0181 - AG-OrnNursProdHORTIC
+project_sic_code_name,16,0182 - AG-FoodCropsUnderCvr
+project_sic_code_name,17,0191 - AG-GEN FARM PRIMCROP
+project_sic_code_name,18,0211 - AG-BeefCattleLVSTOCK
+project_sic_code_name,19,0212 - AG-BeefCattl notFdlt
+project_sic_code_name,20,0213 - AG-Hogs
+project_sic_code_name,21,0214 - AG-Sheep/Goats
+project_sic_code_name,22,0219 - AG-GenlLivestock nec
+project_sic_code_name,23,0241 - AG-DAIRY FARMS
+project_sic_code_name,24,0252 - AG-Chicken Eggs
+project_sic_code_name,25,0259 - AG-Poultry/Eggs NEC
+project_sic_code_name,26,0272 - AG-Horses
+project_sic_code_name,27,"0291 - AG-GENFARM,PRIM ANML"
+project_sic_code_name,28,0711 - AG-SOIL PREPAR SVC
+project_sic_code_name,29,0721 - AG-Plnt/PrtctCROPSVC
+project_sic_code_name,30,0722 - AG-Crop Harvesting
+project_sic_code_name,31,0723 - AG-Crop Prep Market
+project_sic_code_name,32,0741 - PS-Livestock VET SVC
+project_sic_code_name,33,0742 - PS-Vet Service Specl
+project_sic_code_name,34,0751 - PS-ANIMAL SVC NOTVET
+project_sic_code_name,35,0752 - PS-Animal Spclty Svc
+project_sic_code_name,36,0761 - AG-ContractrFARMLABR
+project_sic_code_name,37,0762 - AG-Farm Mgmnt Srvc
+project_sic_code_name,38,0781 - AG-Counsel LANDSCAPE
+project_sic_code_name,39,0782 - AG-Lawn/Garden Srvcs
+project_sic_code_name,40,0811 - AG-TIMBER TRACTS
+project_sic_code_name,41,0831 - AG-FOREST PRODUCTS
+project_sic_code_name,42,0912 - AG-FinFishCOMMRCLFSH
+project_sic_code_name,43,0971 - AG-HUNTNG/TRPNG/GAME
+project_sic_code_name,44,0999 - AG-Cooperatives
+project_sic_code_name,45,1041 - MF-Gold GOLD/SILVER
+project_sic_code_name,46,1081 - MF-METAL MINING SVCS
+project_sic_code_name,47,1094 - MF-Uranium/RadiumMIS
+project_sic_code_name,48,1306A - PS-Real Estate Agent & Brokers
+project_sic_code_name,49,1311 - MF-CRUDE OIL/NTRLGAS
+project_sic_code_name,50,1321 - MF-NATRL GAS/LIQUIDS
+project_sic_code_name,51,1381 - MF-DrillGAS/OILFLDSV
+project_sic_code_name,52,1382 - MF-Oil/GasExploreSvc
+project_sic_code_name,53,1389 - MF-Oil/GasFldSvc nec
+project_sic_code_name,54,1442 - MF-ConstrctSAND/GRVL
+project_sic_code_name,55,1481 - MF-NONMETALIC MINERL
+project_sic_code_name,56,1521 - CO-General Contractors-Single Family Homes
+project_sic_code_name,57,"1522 - CO-General Contractors - Residential, Other than Single Family"
+project_sic_code_name,58,1531 - RE-OPERATIVE BUILDER
+project_sic_code_name,59,1531A - RE-Operative Builders-Residential Homes for Sale
+project_sic_code_name,60,1531B - RE-Operative Builders-Multi-Family Developers for Sale
+project_sic_code_name,61,1531C - RE-Operative Builders-Commerical Developers for Sale
+project_sic_code_name,62,1541 - CO-General Contractors-Industrial Bldgs & Warehouses
+project_sic_code_name,63,"1542 - CO-General Contractors-Nonresidental Bldgs, Other"
+project_sic_code_name,64,1611 - CO-HIWAY/STREET CNST
+project_sic_code_name,65,"1622 - CO-Bridge,Tunnel, Elevated Hwy"
+project_sic_code_name,66,1623 - CO-Water/Sewer/Utlty
+project_sic_code_name,67,1629 - CO-Hvy Construct nec
+project_sic_code_name,68,1711 - CO-CC-PLBMNG/HTNG/AC
+project_sic_code_name,69,1721 - CO-Painting & Paper Hanging
+project_sic_code_name,70,1731 - CO-C-ELECTRICAL WORK
+project_sic_code_name,71,1741 - CO-Oth Stnwk MASONRY
+project_sic_code_name,72,1742 - CO-Plstr/Drywal/Insulation
+project_sic_code_name,73,1751 - CO-Carpentry
+project_sic_code_name,74,1752 - CO-Floorlayg/wrk nec
+project_sic_code_name,75,"1761 - CO-Roofing, Siding, Sheetmetal"
+project_sic_code_name,76,1771 - CO-CC-CONCRETE WORK
+project_sic_code_name,77,1781 - CO-WATER WELL DRILLG
+project_sic_code_name,78,1791 - CO-Structural Steel Erection
+project_sic_code_name,79,1793 - CO-Glass/Glazng Work
+project_sic_code_name,80,1794 - CO-Excavtng/Foundatn
+project_sic_code_name,81,1795 - CO-Wrecking/Demolitn
+project_sic_code_name,82,1796 - CO-Install BldgEquip
+project_sic_code_name,83,1799 - CO-SpecTradeCont nec
+project_sic_code_name,84,1799A - CO-Other Contractors
+project_sic_code_name,85,2011 - AG-Pkg Plnt MEATPROD
+project_sic_code_name,86,2022 - AG-Cheese
+project_sic_code_name,87,2023 - AG-Dry/Cond/EvapProd
+project_sic_code_name,88,2032 - AG-SpcPRSRVD FRT/VEG
+project_sic_code_name,89,2034 - AG-Dehy Frt/Veg/Soup
+project_sic_code_name,90,2035 - AG-Pckle/Sauce/Salad
+project_sic_code_name,91,2038 - AG-FrozenSpeclty nec
+project_sic_code_name,92,2048 - AG-Prepared Feed nec
+project_sic_code_name,93,2051 - AG-Bread/CakeBAKERY
+project_sic_code_name,94,2063 - AG-Beet Sugar
+project_sic_code_name,95,2064 - AG-Candy/ConfectProd
+project_sic_code_name,96,2082 - AG-MaltLiquorBEVERAG
+project_sic_code_name,97,2084 - AG-Wine/Brandy
+project_sic_code_name,98,2085 - AG-Distl/BlendLiquor
+project_sic_code_name,99,2086 - AG-Soft Drnk Bot/Can
+project_sic_code_name,100,2087 - AG-FlvrExtr/Syrp nec
+project_sic_code_name,101,"2095 - AG-Coffee, Roasted"
+project_sic_code_name,102,2096 - AG-PotatoChips/Snack
+project_sic_code_name,103,2097 - AG-Manufactured Ice
+project_sic_code_name,104,"2099 - AG-Food Prep, nec"
+project_sic_code_name,105,2273 - MF-CARPET/RUGS
+project_sic_code_name,106,2281 - MF-YarnSpinYARN/THRD
+project_sic_code_name,107,2299 - MF-Textile Goods nec
+project_sic_code_name,108,2335 - MF-Dresses
+project_sic_code_name,109,2361 - MF-DressGIRL/CHD OTR
+project_sic_code_name,110,2381 - MF-Dress MISCAPPAREL
+project_sic_code_name,111,2385 - MF-WaterproofOuterwr
+project_sic_code_name,112,2389 - MF-Apparel/Acces nec
+project_sic_code_name,113,2392 - MF-Housefurnishg nec
+project_sic_code_name,114,2396 - MF-Auto/Apparel Trim
+project_sic_code_name,115,2411 - MF-LOGGING
+project_sic_code_name,116,2421 - MF-GenSAW/PLANE MILL
+project_sic_code_name,117,2426 - MF-HdwdDimension Flr
+project_sic_code_name,118,2429 - MF-SpecProdMills nec
+project_sic_code_name,119,2431 - MF-MILLWORK
+project_sic_code_name,120,2434 - MF-WoodKitchnCabinet
+project_sic_code_name,121,2436 - MF-Sftwd Veneer/Plyw
+project_sic_code_name,122,2448 - MF-Wood Pallets/Skid
+project_sic_code_name,123,2449 - MF-WoodContainrs nec
+project_sic_code_name,124,2451 - MF-WOODBLDG/MOBILEHM
+project_sic_code_name,125,2452 - MF-Prefab Wood Bldg
+project_sic_code_name,126,2499 - MF-Wood Products nec
+project_sic_code_name,127,2511 - MF-Wood HOUSEHLDFURN
+project_sic_code_name,128,2515 - MF-Mattress/Bedsprgs
+project_sic_code_name,129,2521 - MF-Wood OFFICE FURN
+project_sic_code_name,130,2531 - MF-PUBLIC BLDG FURN
+project_sic_code_name,131,2542 - MF-Part/Fix exc Wood
+project_sic_code_name,132,2599 - MF-Furn/Fixtures nec
+project_sic_code_name,133,2621 - MF-PAPER MILLS
+project_sic_code_name,134,2631 - MF-PAPERBOARD MILLS
+project_sic_code_name,135,2652 - MF-PprbdBox PPRBDCNT
+project_sic_code_name,136,2655 - MF-Fiber Can/Drums
+project_sic_code_name,137,2671 - MF-PprCtd/LamMISCPPR
+project_sic_code_name,138,2675 - MF-Die-cut Paper/Brd
+project_sic_code_name,139,2676 - MF-Sanitary Ppr Prod
+project_sic_code_name,140,2678 - MF-StationeryProduct
+project_sic_code_name,141,2679 - MF-Conv Ppr Prod nec
+project_sic_code_name,142,2711 - MF-NEWSPAPERS
+project_sic_code_name,143,2721 - MF-PERIODICALS
+project_sic_code_name,144,2731 - MF-Publishing BOOKS
+project_sic_code_name,145,2741 - MF-MISC PUBLISHINGS
+project_sic_code_name,146,2752 - MF-Comm LithogrphPrt
+project_sic_code_name,147,2759 - MF-Comm Prtg nec
+project_sic_code_name,148,2789 - MF-Bookbind/Rel Work
+project_sic_code_name,149,2816 - MF-Inorganic Pigment
+project_sic_code_name,150,2819 - MF-Ind InorgChem nec
+project_sic_code_name,151,2821 - MF-ResinPLASTMAT/SYN
+project_sic_code_name,152,2822 - MF-Synthetic Rubber
+project_sic_code_name,153,2833 - HC-Medicinal/BotDRUG
+project_sic_code_name,154,2834 - HC-Pharmaceut Prepar
+project_sic_code_name,155,2835 - HC-DiagnosticSubstnc
+project_sic_code_name,156,2836 - HC-Biological Prod
+project_sic_code_name,157,2841 - MF-Soap/Det SOAP/CLN
+project_sic_code_name,158,2842 - MF-Polish/SanitatnGd
+project_sic_code_name,159,2851 - MF-PAINTS/ALLIEDPROD
+project_sic_code_name,160,2869 - MF-Ind Org Chem nec
+project_sic_code_name,161,2873 - MF-Nitr Fert AG CHEM
+project_sic_code_name,162,"2875 - MF-Fert, Mixing Only"
+project_sic_code_name,163,2879 - MF-Agri Chem nec
+project_sic_code_name,164,2891 - MF-Adh/SealntMISCHEM
+project_sic_code_name,165,2952 - MF-AsphltFelts/Coatg
+project_sic_code_name,166,2992 - MF-LubrOil/GrMISCPET
+project_sic_code_name,167,2999 - MF-Petro/CoalPrd nec
+project_sic_code_name,168,3053 - MF-Gskt/Pkg/SealgDev
+project_sic_code_name,169,3069 - MF-Fab Rubbr Prd nec
+project_sic_code_name,170,3081 - MF-PlastFilmMISCPLAS
+project_sic_code_name,171,3083 - MF-LaminPlasticPlate
+project_sic_code_name,172,3084 - MF-Plastics Pipe
+project_sic_code_name,173,3086 - MF-Plastic Foam Prod
+project_sic_code_name,174,3089 - MF-Plastic Prod nec
+project_sic_code_name,175,3149 - MF-Footwr excRub nec
+project_sic_code_name,176,3211 - MF-FLAT GLASS
+project_sic_code_name,177,3231 - MF-PROD OF PURCHGLAS
+project_sic_code_name,178,3253 - MF-CeramcWall/FlrTil
+project_sic_code_name,179,3271 - MF-Blk/BrkCONCR/GYPS
+project_sic_code_name,180,3272 - MF-Concrete Prod nec
+project_sic_code_name,181,3273 - MF-Ready-MixConcrete
+project_sic_code_name,182,3281 - MF-CUT STONE/STONPRD
+project_sic_code_name,183,3291 - MF-Abrsv MISC NONMET
+project_sic_code_name,184,3299 - MF-NonmetalMinPr nec
+project_sic_code_name,185,3313 - MF-ElectrometlurgPrd
+project_sic_code_name,186,3315 - MF-SteelWire/RelProd
+project_sic_code_name,187,3316 - MF-ColdFinishSteelSh
+project_sic_code_name,188,3317 - MF-Steel Pipes/Tubes
+project_sic_code_name,189,3322 - MF-MalleableIronFdry
+project_sic_code_name,190,3325 - MF-Steel Foundry nec
+project_sic_code_name,191,3339 - MF-PrimNonferMtl nec
+project_sic_code_name,192,3398 - MF-MetlHeatTreatMISC
+project_sic_code_name,193,3399 - MF-PrimMetalProd nec
+project_sic_code_name,194,3423 - MF-Hand & Edge Tools
+project_sic_code_name,195,3429 - MF-Hardware nec
+project_sic_code_name,196,3432 - MF-Plumb/Fixt Fittng
+project_sic_code_name,197,3433 - MF-Heating Equipment
+project_sic_code_name,198,3441 - MF-FABRICATED STRUCT
+project_sic_code_name,199,3442 - MF-Metal Doors/Sash/
+project_sic_code_name,200,3444 - MF-Sheet Metal Work
+project_sic_code_name,201,3449 - MF-Misc. Metal Work
+project_sic_code_name,202,"3452 - MF-Bolts,Nuts,Screws"
+project_sic_code_name,203,3462 - MF-Iron/StlMETALFORG
+project_sic_code_name,204,3469 - MF-MetalStamping nec
+project_sic_code_name,205,3471 - MF-Plat/Pol METALSVC
+project_sic_code_name,206,3479 - MF-MetlCoatng/AllSvc
+project_sic_code_name,207,3482 - MF-AmmunORDNANCE/ACC
+project_sic_code_name,208,3483 - MF-Ammun ex.SmallArm
+project_sic_code_name,209,3492 - MF-Fluid Power Valve
+project_sic_code_name,210,3495 - MF-Wire Springs
+project_sic_code_name,211,3496 - MF-Misc FabWire Prod
+project_sic_code_name,212,3498 - MF-Fab Pipe Fittings
+project_sic_code_name,213,3499 - MF-FabMetal Prod nec
+project_sic_code_name,214,3511 - MF-TurbGen ENG/TURBN
+project_sic_code_name,215,3519 - MF-Intnl Combust Eng
+project_sic_code_name,216,3531 - MF-CONSTRCT MACHINRY
+project_sic_code_name,217,3533 - MF-OilField Machinry
+project_sic_code_name,218,3534 - MF-Elevator
+project_sic_code_name,219,3535 - MF-Conveyor/Conv.Eqp
+project_sic_code_name,220,3536 - MF-Hoists/Cranes/Mon
+project_sic_code_name,221,3537 - MF-Trucks/TractrsInd
+project_sic_code_name,222,3541 - MF-MachToolMETLWKMCH
+project_sic_code_name,223,3542 - MF-MachToolsMetlFrmg
+project_sic_code_name,224,3543 - MF-Industl Patterns
+project_sic_code_name,225,"3544 - MF-Specl Dies,Tools"
+project_sic_code_name,226,3545 - MF-Machn Tool Access
+project_sic_code_name,227,3549 - MF-Metlwk MachineNec
+project_sic_code_name,228,3555 - MF-PrtgTradeMachinry
+project_sic_code_name,229,3556 - MF-FoodProd Machinery
+project_sic_code_name,230,3559 - MF-Spec Ind Mach nec
+project_sic_code_name,231,3561 - MF-Pumps GEN IND MCH
+project_sic_code_name,232,3563 - MF-Air/Gas Compressr
+project_sic_code_name,233,3564 - MF-Blower/Fans
+project_sic_code_name,234,3565 - MF-Packg Machinery
+project_sic_code_name,235,3567 - MF-IndustFurnac/Oven
+project_sic_code_name,236,3568 - MF-Pwr Transmissn Eq
+project_sic_code_name,237,3569 - MF-Gen Ind Mach nec
+project_sic_code_name,238,3571 - TE-ElecCmputrOFFICEQ
+project_sic_code_name,239,3575 - TE-Computer Terminal
+project_sic_code_name,240,3577 - TE-ComputrPeripheral
+project_sic_code_name,241,3577B - TE-Clean Technology
+project_sic_code_name,242,3578 - MF-Calc/Acct Equipmt
+project_sic_code_name,243,3579 - MF-Office Equip nec
+project_sic_code_name,244,3582 - MF-Comrcl Laundry Eq
+project_sic_code_name,245,3585 - MF-Refrig/Htg Equip
+project_sic_code_name,246,3593 - MF-Fluid Pwr Cylindr
+project_sic_code_name,247,3594 - MF-FluidPwr Pump/Mtr
+project_sic_code_name,248,3596 - MF-Scales/Balances
+project_sic_code_name,249,3599 - MF-Industrl Mach nec
+project_sic_code_name,250,3612 - MF-TransfrmrELECDIST
+project_sic_code_name,251,3624 - MF-Carbon/GraphitePr
+project_sic_code_name,252,3629 - MF-ElectIndAppratNec
+project_sic_code_name,253,3639 - MF-Hshld AppliancNec
+project_sic_code_name,254,3645 - MF-Resid LightingFxt
+project_sic_code_name,255,3646 - MF-Cmcrl LightingFxt
+project_sic_code_name,256,3661 - MF-Phon/Tlgraph COMM
+project_sic_code_name,257,3663 - MF-Radio/TV Comm Eqp
+project_sic_code_name,258,3669 - MF-Communic Eqp nec
+project_sic_code_name,259,3672 - MF-Prnted Circuit Bd
+project_sic_code_name,260,3674 - TE-Semiconductor/Rel
+project_sic_code_name,261,3676 - MF-Electr Resistors
+project_sic_code_name,262,3677 - MF-Electr Coil/Trsfm
+project_sic_code_name,263,3679 - MF-Electr Compnt nec
+project_sic_code_name,264,3691 - MF-StoragBattMISC EL
+project_sic_code_name,265,3694 - MF-Engines/Electl Eq
+project_sic_code_name,266,3695 - MF-Magnet/OpticlRcdg
+project_sic_code_name,267,3699 - MF-Elect Eqp/Sup nec
+project_sic_code_name,268,3714 - MF-MotorVehicleParts
+project_sic_code_name,269,3724 - MF-Aircrft Engin/Prt
+project_sic_code_name,270,3728 - MF-AircftPrt/Eqp nec
+project_sic_code_name,271,3732 - MF-Boat Bldg/Repair
+project_sic_code_name,272,3743 - MF-RAILROAD EQUIPMNT
+project_sic_code_name,273,3795 - MF-Tanks/Tank Compnt
+project_sic_code_name,274,3799 - MF-Trans. Equip nec
+project_sic_code_name,275,3822 - MF-EnvironmentlCntrl
+project_sic_code_name,276,3823 - MF-ProcessCntrolInst
+project_sic_code_name,277,3825 - MF-Inst to Meas Elec
+project_sic_code_name,278,3826 - HC-Analytical Instru
+project_sic_code_name,279,3827 - HC-OpticalInstr/Lens
+project_sic_code_name,280,3829 - HC-Meas/CntrlDev nec
+project_sic_code_name,281,3841 - HC-Surg MEDINST/SUPL
+project_sic_code_name,282,3842 - HC-Surg Appl/Supply
+project_sic_code_name,283,3843 - HC-Dental Eqp/Supply
+project_sic_code_name,284,3845 - HC-Electomedical Eqp
+project_sic_code_name,285,3861 - MF-PHOTO EQP/SUPPLY
+project_sic_code_name,286,3911 - MF-Jewelry MISC MFG
+project_sic_code_name,287,3931 - MF-MUSICAL INST/PART
+project_sic_code_name,288,3942 - MF-Dolls/Stuffed TOY
+project_sic_code_name,289,3944 - MF-Game/Toy/ChildVeh
+project_sic_code_name,290,3949 - MF-Sport/Athletic Gd
+project_sic_code_name,291,3993 - MF-Signs/Ad Displays
+project_sic_code_name,292,3995 - MF-Burial Caskets
+project_sic_code_name,293,3999 - MF-Manufact Ind nec
+project_sic_code_name,294,4141 - LO-Local BUS CHARTER
+project_sic_code_name,295,4142 - LO-Charter Service
+project_sic_code_name,296,4212 - LO-Loclw/oStorTRUCKN
+project_sic_code_name,297,"4213 - LO-Trucking,Exc Locl"
+project_sic_code_name,298,"4213A - LO-Gen Freight, Truckload"
+project_sic_code_name,299,"4213B - LO-Gen Freight, Parcel"
+project_sic_code_name,300,"4213D - LO-Spec Comm, Retail Delivery"
+project_sic_code_name,301,4213E - LO-Private Trucking
+project_sic_code_name,302,4213F - LO-Other
+project_sic_code_name,303,4214 - LO-Moving & Storage
+project_sic_code_name,304,4221 - LO-Farm Prod WAREHSE
+project_sic_code_name,305,4222 - LO-Refrig Whsing
+project_sic_code_name,306,4225 - LO-Genl Warehouse
+project_sic_code_name,307,4226 - LO-Special Whse nec
+project_sic_code_name,308,4491 - LO-MarineCrgo TRANSV
+project_sic_code_name,309,4499 - LO-WaterTransSvc nec
+project_sic_code_name,310,4512 - LO-SCHED AIRTRANSPRT
+project_sic_code_name,311,4522 - LO-NONSCHED AIRTRANS
+project_sic_code_name,312,4581 - LO-AIRPORT/FLYINGFLD
+project_sic_code_name,313,4619 - LO-Pipelines (NEC)
+project_sic_code_name,314,4724 - PS-TrvlAgt TRANS ARR
+project_sic_code_name,315,4725 - LO-Tour Operators
+project_sic_code_name,316,4729 - LO-PassTrans Arr nec
+project_sic_code_name,317,4731 - LO-3rd Party Logistics/Freight Forwarding
+project_sic_code_name,318,4783 - LO-Packing/Crating
+project_sic_code_name,319,4785 - LO-Inspect/Fix Facil
+project_sic_code_name,320,4789 - LO-Trans Svc nec
+project_sic_code_name,321,4812 - TE-CMRS
+project_sic_code_name,322,4813A - TE-IVP
+project_sic_code_name,323,4813C - TE-CLEC
+project_sic_code_name,324,4813D - TE-IXC
+project_sic_code_name,325,4832 - SLG-Station RADIOBRDC
+project_sic_code_name,326,4841 - TE-CABLE/OTH PAY TV
+project_sic_code_name,327,4899 - TE-COMMUNIC SVC NEC
+project_sic_code_name,328,4911 - SLG-ELECTRIC SERVICES
+project_sic_code_name,329,4919 - SLG-Pipelines nec
+project_sic_code_name,330,4925 - SLG-PetroGasProd/Dist
+project_sic_code_name,331,4931 - SLG-ElecOthSrv/COMSRV
+project_sic_code_name,332,4941 - SLG-WATER SUPPLY
+project_sic_code_name,333,4952 - SLG-Sewerage/SANITAR
+project_sic_code_name,334,4953 - LO-Refuse Systems
+project_sic_code_name,335,4959 - SLG-Sanitary svcs nec
+project_sic_code_name,336,5012 - LO-Auto/OthMtrWHLSAL
+project_sic_code_name,337,5013 - LO-Supplies/New Part
+project_sic_code_name,338,5014 - LO-Tires/Tubes
+project_sic_code_name,339,5021 - LO-FURNITURE
+project_sic_code_name,340,5023 - LO-Home Furnishings
+project_sic_code_name,341,5031 - LO-Lmbr/Plywd CNSTR
+project_sic_code_name,342,5033 - LO-RoofingSidingInsl
+project_sic_code_name,343,5039 - LO-Constr Matls Nec
+project_sic_code_name,344,5044 - LO-Office Equipment
+project_sic_code_name,345,5045 - LO-Wholesale Computers/Equipment/Software
+project_sic_code_name,346,5046 - LO-Comrcl Equip Nec
+project_sic_code_name,347,5047 - LO-Wholesale Med/Dental/Hospital Equip/Supplies
+project_sic_code_name,348,5048 - LO-Wholesale Ophthalmic Goods
+project_sic_code_name,349,5049 - LO-Prof Equip Nec
+project_sic_code_name,350,5051 - LO-MetlsSrvCtr/METAL
+project_sic_code_name,351,5063 - LO-Electr Eq/ElecGds
+project_sic_code_name,352,5064 - LO-ElecAppl TV+Radio
+project_sic_code_name,353,5065 - LO-Elec Parts/Equip
+project_sic_code_name,354,5072 - LO-Hardwar/HDWREPLMG
+project_sic_code_name,355,5074 - LO-Plmbg+HydronicHtg
+project_sic_code_name,356,5075 - LO-Warm Air Htg/Cond
+project_sic_code_name,357,5078 - LO-Refrig Equip/Supp
+project_sic_code_name,358,5083 - LO-Farm/Garden Mach
+project_sic_code_name,359,5084 - LO-Industl Mach/Eqp
+project_sic_code_name,360,5085 - LO-Industrial Supply
+project_sic_code_name,361,5087 - LO-SvcEstablshmntEq
+project_sic_code_name,362,5088 - LO-Transpt Eq/Supply
+project_sic_code_name,363,5091 - LO-Sptg/Rec/MSCDURBL
+project_sic_code_name,364,5092 - LO-Toys/HobbyGds/Sup
+project_sic_code_name,365,5093 - LO-Scrap/Waste Matl
+project_sic_code_name,366,5094 - LO-Jewlry/PreciousSt
+project_sic_code_name,367,5099 - LO-Durable Goods Nec
+project_sic_code_name,368,5111 - LO-Prtg/Writg/PPRPRD
+project_sic_code_name,369,5112 - LO-Stationery/OfcSup
+project_sic_code_name,370,5122 - LO-Wholesale Drugs and Drug Proprietaries/Sundries
+project_sic_code_name,371,5131 - LO-Pc Gds/APPAREL PC
+project_sic_code_name,372,5141 - LO-Grocery/RLTD PROD
+project_sic_code_name,373,5142 - LO-Frozen Foods
+project_sic_code_name,374,5143 - LO-Dairy Products
+project_sic_code_name,375,5146 - LO-Fish/Seafood
+project_sic_code_name,376,5147 - LO-Meat/Meat Product
+project_sic_code_name,377,5148 - LO-Fresh Fruit/Veget
+project_sic_code_name,378,5149 - LO-Groc/ReltdPrd Nec
+project_sic_code_name,379,5153 - LO-Wholesale Grain and Field Beans
+project_sic_code_name,380,5154 - LO-Wholesale Livestock
+project_sic_code_name,381,5159 - LO-Wholesale Farm-Product Raw Materials
+project_sic_code_name,382,5162 - LO-PlasticMatl/Shape
+project_sic_code_name,383,5169 - LO-Chem/AlliedPrdNec
+project_sic_code_name,384,5172 - LO-Wholesale Petroleum Products Wholesalers
+project_sic_code_name,385,5181 - LO-Beer+Ale/BEER WIN
+project_sic_code_name,386,5182 - LO-Wines/DistBeverag
+project_sic_code_name,387,5191 - LO-Wholesale Farm Supplies
+project_sic_code_name,388,5193 - LO-Flowers/Supplies
+project_sic_code_name,389,5194 - LO-Tobacco/Its Prod
+project_sic_code_name,390,5199 - LO-NondurableGds Nec
+project_sic_code_name,391,5211 - RT-Lumber/BLDG MATLS
+project_sic_code_name,392,5251 - RT-HARDWARE STORES
+project_sic_code_name,393,5261 - RT-NURSERY LAWN/GRDN
+project_sic_code_name,394,5311 - RT-DeptStrs/GEN MRCH
+project_sic_code_name,395,531120 - HC-Medical Office Buildings
+project_sic_code_name,396,5399 - RT-GENL MERCH STORES
+project_sic_code_name,397,5411 - RT-GroceryStore/FOOD
+project_sic_code_name,398,5421 - RT-Meat/Fish MARKETS
+project_sic_code_name,399,5431 - RT-FRUIT/VEGETBLMRKT
+project_sic_code_name,400,5461 - RT-RETAIL BAKERIES
+project_sic_code_name,401,5499 - RT-MISC FOOD STORES
+project_sic_code_name,402,5511 - RT-NEW/USED CARDEALR
+project_sic_code_name,403,5511A - RT-Buy Here Pay Here Dealers
+project_sic_code_name,404,5511B - RT-Farm Implement Dealers
+project_sic_code_name,405,5511C - RT-Truck Dealer
+project_sic_code_name,406,5511E - RT-Construction Equipment Dealers
+project_sic_code_name,407,5521 - RT-USED CAR DEALERS
+project_sic_code_name,408,5531 - RT-AUTO/HOME SPLYSTR
+project_sic_code_name,409,5541 - RT-GASOLINE SRVSTATN
+project_sic_code_name,410,5561 - RT-REC VEHICLE DEALR
+project_sic_code_name,411,5571 - RT-MOTORCYCLE DEALER
+project_sic_code_name,412,5599 - RT-Dealer-Other
+project_sic_code_name,413,5611 - RT-Men/BoyClthg/APRL
+project_sic_code_name,414,5621 - RT-WOMEN CLOTHNG STR
+project_sic_code_name,415,5651 - RT-FAMLY CLOTHNG STR
+project_sic_code_name,416,5661 - RT-SHOE STORES
+project_sic_code_name,417,5699 - RT-MISC APPARL/ACSRY
+project_sic_code_name,418,5712 - RT-Furnitur/HOMEFURN
+project_sic_code_name,419,5713 - RT-Floor Covering
+project_sic_code_name,420,5719 - RT-Home Furnishings
+project_sic_code_name,421,5722 - RT-HOUSEHLD APPLIANC
+project_sic_code_name,422,5731 - RT-Radio/TV/El/RADIO
+project_sic_code_name,423,5734 - TE-Computer/Software
+project_sic_code_name,424,5734A - TE-SaaS (Software as a Service)
+project_sic_code_name,425,5734E - TE-Clean Technology
+project_sic_code_name,426,5734F - TE-Internet Retail
+project_sic_code_name,427,5736 - RT-Musical Instrumnt
+project_sic_code_name,428,5812 - RT-Eating Plcs/EATNG
+project_sic_code_name,429,5813 - RT-Bars/Night Clubs
+project_sic_code_name,430,5912 - RT-Drg/Prprietry/MIS
+project_sic_code_name,431,5921 - RT-LIQUOR STORES
+project_sic_code_name,432,5932 - RT-Used MERCH STORES
+project_sic_code_name,433,5941 - RT-SprtGds/Bike/MISC
+project_sic_code_name,434,5942 - RT-Book Stores
+project_sic_code_name,435,5944 - RT-Jewelry Stores
+project_sic_code_name,436,5945 - RT-Hobby/Toy/GmeShop
+project_sic_code_name,437,5947 - RT-Gift/Novelty Shop
+project_sic_code_name,438,5961 - RT-Mail Ordr/NONSTOR
+project_sic_code_name,439,5962 - RT-VendngMch/Operatr
+project_sic_code_name,440,5963 - RT-Direct Selling Co
+project_sic_code_name,441,5983 - RT-Fuel Oil Dealers
+project_sic_code_name,442,5995 - RT-Optical Gds Store
+project_sic_code_name,443,5999 - RT-MiscRetailStr Nec
+project_sic_code_name,444,6011 - FS-Fed ResrvBank/DEP
+project_sic_code_name,445,6021 - FS-Natl Commrcl Bank
+project_sic_code_name,446,6022 - FS-State Commrcl Bnk
+project_sic_code_name,447,6029 - FS-Commrcl Banks Nec
+project_sic_code_name,448,6061 - FS-FedCredt/CREDITUN
+project_sic_code_name,449,6061A - FS- CUSO
+project_sic_code_name,450,6062 - FS-State CreditUnion
+project_sic_code_name,451,6081 - FS-ForeignBnk/FOREIG
+project_sic_code_name,452,6099 - FS-Func RelTo DepBn
+project_sic_code_name,453,6141 - FS-PersCreditUn/PERS
+project_sic_code_name,454,6159 - FS-MiscBusCreditInst
+project_sic_code_name,455,6162 - FS-MortBnkr/LoanCorr
+project_sic_code_name,456,6199 - FS-Financial Services
+project_sic_code_name,457,6211 - FS-SEC BROKER/DEALER
+project_sic_code_name,458,621111 - HC-Medical Specialty Practices
+project_sic_code_name,459,6211A - PE- Investment Companies
+project_sic_code_name,460,6211B - RE-Private Equity
+project_sic_code_name,461,621493 - HC-Ambulatory Surgery Ctrs
+project_sic_code_name,462,621512 - HC-Imaging Centers
+project_sic_code_name,463,6221 - FS-COMM CONTR BRKR/D
+project_sic_code_name,464,6282 - FS-Investment Advice
+project_sic_code_name,465,6311 - FS-Life Ins/INS CARR
+project_sic_code_name,466,6324 - FS-Hosp/Med Svc Plan
+project_sic_code_name,467,6331 - FS-FIRE/SEA/CSLTYINS
+project_sic_code_name,468,6361 - FS-TITLE INSURANCE
+project_sic_code_name,469,6371 - EB-PENS/HLTH/WLFRFND
+project_sic_code_name,470,6399 - EB-INS CARRIER NEC
+project_sic_code_name,471,6411 - PS-INS AGENTS/BROKER
+project_sic_code_name,472,6512 - RE-Operators - Commercial and Industrial Bldgs
+project_sic_code_name,473,6513 - RE-Operators - Multi-Family
+project_sic_code_name,474,6514 - RE-Operators - Residential Other Than Multi-Family
+project_sic_code_name,475,6515 - RE-Operators - Mobile Home Sites
+project_sic_code_name,476,6517 - RE-Lessors Railroad Property
+project_sic_code_name,477,6519 - RE-Lessors Real Property nec
+project_sic_code_name,478,6531 - RE-Real Estate Agents and Property Managers
+project_sic_code_name,479,6541 - RE-TITLE ABSTRCT OFC
+project_sic_code_name,480,6552 - RE- Land Subdividers and Developers
+project_sic_code_name,481,6712 - FS-Bank Holding Co
+project_sic_code_name,482,6719 - FS-Holding Co nec
+project_sic_code_name,483,6722 - FS-Mgmt INVEST OFFC
+project_sic_code_name,484,6726 - FS-Invstmnt Offc nec
+project_sic_code_name,485,6732 - FS-Ed/Relig/EtcTRUST
+project_sic_code_name,486,6733 - IN-Trusts nec
+project_sic_code_name,487,6798 - RE-Real Est Inv Trst
+project_sic_code_name,488,6799 - FS-Investors nec
+project_sic_code_name,489,7011 - RE-Hotel/Motel HOTEL
+project_sic_code_name,490,7011G - PS-Hotel with Gaming
+project_sic_code_name,491,7032 - RE-Sprt/Rec CAMP/REC
+project_sic_code_name,492,7212 - RT-Garment Clnr/Agnt
+project_sic_code_name,493,7213 - RT-Linen Supply
+project_sic_code_name,494,7215 - RT-Coin Laundry/Clnr
+project_sic_code_name,495,7217 - RT-Carpet/Uphol Clnr
+project_sic_code_name,496,7218 - RT-Industl Launderer
+project_sic_code_name,497,7219 - RT-Lndry/GrmtSvc nec
+project_sic_code_name,498,7231 - RT-BEAUTY SHOPS
+project_sic_code_name,499,7241 - RT-BARBER SHOPS
+project_sic_code_name,500,7261 - RT-FUNERL SVC/CRMATR
+project_sic_code_name,501,7291 - RT-Tax Rtn MISC SVC
+project_sic_code_name,502,7299 - RT-Misc Pers Svc nec
+project_sic_code_name,503,7311 - PS-Agency ADVERTISNG
+project_sic_code_name,504,7313 - PS-Radio/TV AdvrtRep
+project_sic_code_name,505,7319 - PS-Advertising nec
+project_sic_code_name,506,7322 - PS-Adjust/CollectSvc
+project_sic_code_name,507,7323 - PS-Credit Rptng Svc
+project_sic_code_name,508,7335 - RT-Comrcl Photogrph
+project_sic_code_name,509,7336 - RT-CommArt/GrphcDsgn
+project_sic_code_name,510,7342 - RT-Disinfectng/Extrm
+project_sic_code_name,511,7349 - RT-Building Svcs nec
+project_sic_code_name,512,7352 - HC-Medical Eqp Rentl
+project_sic_code_name,513,7353 - RT-HeavyConstEqpRntl
+project_sic_code_name,514,7359 - RT-Eqp Rntl/Leas nec
+project_sic_code_name,515,7361 - PS-EmpAgcy PERSNLSUP
+project_sic_code_name,516,7363 - RT-Help Supply Srvc
+project_sic_code_name,517,7371 - TE-ProgSvc COMPTRSVC
+project_sic_code_name,518,7372 - TE-Prepackaged Sftwr
+project_sic_code_name,519,7373 - TE-Comptr Intg Systm
+project_sic_code_name,520,7374 - TE-DataProcessng Svc
+project_sic_code_name,521,7375 - TE-InfoRetrieval Svc
+project_sic_code_name,522,7376 - TE-Computer Facility
+project_sic_code_name,523,7378 - TE-Cmputr Mnt/Repair
+project_sic_code_name,524,7379 - TE-ComptrRel Svc nec
+project_sic_code_name,525,7389 - RT-Business Svcs nec
+project_sic_code_name,526,7513 - RT-Trk AUTO RNT/LEAS
+project_sic_code_name,527,7519 - RT-Rec Veh/Trlr Rntl
+project_sic_code_name,528,7532 - RT-Top/BodyAUTOREPAI
+project_sic_code_name,529,7534 - RT-TireRetread/Repai
+project_sic_code_name,530,7536 - RT-AutoGlass Replcmt
+project_sic_code_name,531,7538 - RT-AutoRepairShopGen
+project_sic_code_name,532,7539 - RT-Auto Repair nec
+project_sic_code_name,533,7549 - RT-Auto Services nec
+project_sic_code_name,534,7699 - RT-Repair Srvc nec
+project_sic_code_name,535,7812 - PS-MOTION PICT PROD
+project_sic_code_name,536,7819 - PS-MotionPictProdSvc
+project_sic_code_name,537,7832 - PS-MOTN PICT THEATER
+project_sic_code_name,538,7911 - PS-DANCE HALL/STUDIO
+project_sic_code_name,539,7922 - PS-TheatrPRODUCR/ENT
+project_sic_code_name,540,7929 - PS-Entertainers
+project_sic_code_name,541,7933 - PS-BOWLING CENTERS
+project_sic_code_name,542,7941 - PS-SportClubCOMMSPRT
+project_sic_code_name,543,7941A - PS-Professional Athlete
+project_sic_code_name,544,7948 - PS-Race Track/Stable
+project_sic_code_name,545,7991 - RT-PhyFit MISC AMUS/
+project_sic_code_name,546,7992 - PS-GolfCourse Public
+project_sic_code_name,547,7993 - PS-Coin-OpAmusmntDvc
+project_sic_code_name,548,7997 - PS-Mmbrshp Sport/Rec
+project_sic_code_name,549,7999 - PS-Amusement/Rec nec
+project_sic_code_name,550,"8011 - HC-PHYSICIAN,OFFC OF"
+project_sic_code_name,551,8011A - HC-Orthopedics
+project_sic_code_name,552,8011B - HC-Radioloigists
+project_sic_code_name,553,"8021 - HC-DENTISTS,OFFC OF"
+project_sic_code_name,554,8041 - HC-Chiroprct OTHHLTH
+project_sic_code_name,555,"8042 - HC-Optometrist,Offc"
+project_sic_code_name,556,"8043 - HC-Podiatrists,Offc"
+project_sic_code_name,557,8049 - HC-Health Pract nec
+project_sic_code_name,558,8051 - HC-Skilled Nursing and ICF Facilities
+project_sic_code_name,559,8051A - HC-Independent Senior Living
+project_sic_code_name,560,8059 - HC-Home Care - Private Duty and Other HCBS
+project_sic_code_name,561,8059A - HC-CCRC
+project_sic_code_name,562,8059B - HC-Assisted Living Fac
+project_sic_code_name,563,8059C - HC-Therapy & Rehab
+project_sic_code_name,564,8059D - HC-FQHC
+project_sic_code_name,565,8059E - HC-Hospice
+project_sic_code_name,566,8062 - HC-Med/Surg HOSPITAL
+project_sic_code_name,567,8062A - HC-Community Hospital
+project_sic_code_name,568,"8063 - HC-Hosp, Psychiatric"
+project_sic_code_name,569,8063A - HC-Critical Access Hospital
+project_sic_code_name,570,8069 - HC-Specialty Hospitl
+project_sic_code_name,571,8069A - HC-Health System
+project_sic_code_name,572,8071 - HC-MEDICAL LABORATRY
+project_sic_code_name,573,8072 - HC-Dental Laboratory
+project_sic_code_name,574,8082 - HC-Home Health - Certified
+project_sic_code_name,575,8092 - HC-KidnyDial HLTHNEC
+project_sic_code_name,576,8093 - HC-Spec OutpatntClnc
+project_sic_code_name,577,8099 - HC-Hlth/AlliedSvcNec
+project_sic_code_name,578,8099A - HC-Health Plan
+project_sic_code_name,579,8099B - HC-Managed Care Plan
+project_sic_code_name,580,8099C - HC-Accountable Care Organization
+project_sic_code_name,581,8111 - PS-LEGAL SERVICES
+project_sic_code_name,582,8211 - NP-Priv/Ind School
+project_sic_code_name,583,8221 - HE-Public/Govt College/Univ
+project_sic_code_name,584,8222 - HE-Private NP College/Univ
+project_sic_code_name,585,8231 - NP-LIBRARIES
+project_sic_code_name,586,8243 - NP-Data Proc Schl
+project_sic_code_name,587,8244 - NP-Bus/Secrtrial Sch
+project_sic_code_name,588,8249 - HE-Proprietary College/Univ/School
+project_sic_code_name,589,8299 - NP-SCHLS/EDUCSVC NEC
+project_sic_code_name,590,8322 - NP-INDIV/FAMILY SVC
+project_sic_code_name,591,8331 - NP-JOB TRAIN/RLTDSVC
+project_sic_code_name,592,8351 - NP-CHILD DAYCARE SVC
+project_sic_code_name,593,8361 - HC-RESIDENTIAL CARE
+project_sic_code_name,594,8361A - HC-Grp Home/Dev Disabled
+project_sic_code_name,595,8399 - NP-SOCIAL SVCS NEC
+project_sic_code_name,596,"8399A - NP-Foundation-Community,Supporting,FundRaising"
+project_sic_code_name,597,"8399B - NP-Foundation-Private,Trusts and Family"
+project_sic_code_name,598,8412 - NP-MUSEUM/ARTGALLERY
+project_sic_code_name,599,8422 - NP-BOTNCL/ZOOLGL GDN
+project_sic_code_name,600,8611 - NP-BUSINESS ASSOC
+project_sic_code_name,601,8621 - NP-PROFESSNL ORGANIZ
+project_sic_code_name,602,8631 - NP-LABOR ORGANIZATN
+project_sic_code_name,603,8641 - NP-CIVIC/SOCIAL ORG
+project_sic_code_name,604,8651 - NP-POLITICL ORGANIZA
+project_sic_code_name,605,8661 - NP-RELIGIOUS ORGANIZ
+project_sic_code_name,606,8699 - NP-MBR ORGANIZAT NEC
+project_sic_code_name,607,8711 - PS-CC-Engineer Svcs
+project_sic_code_name,608,8712 - PS-CC-Architect Svcs
+project_sic_code_name,609,8713 - PS-Surveying Service
+project_sic_code_name,610,8721 - PS-Acct/Audit/Bkkp
+project_sic_code_name,611,8731 - HC-Comm Phy RESRCH/T
+project_sic_code_name,612,8732 - HC-Comm NonPhysRsrch
+project_sic_code_name,613,8733 - HC-Noncomm Rsrch Org
+project_sic_code_name,614,8734 - HC-Testing Laboratry
+project_sic_code_name,615,8741 - PS-MGMT/PUBLIC RELTN
+project_sic_code_name,616,8742 - PS-Management Conslt
+project_sic_code_name,617,8743 - PS-Public RelatnsSvc
+project_sic_code_name,618,8744 - RT-Facilities Supprt
+project_sic_code_name,619,8748 - PS-Business Consult NEC
+project_sic_code_name,620,8748A - FS-Financial Advisory
+project_sic_code_name,621,8748B - TE-Technology Consulting/Web
+project_sic_code_name,622,8811 - IN-PRIVATE HOUSEHOLD
+project_sic_code_name,623,8999 - RT-SERVICES NEC
+project_sic_code_name,624,9111A - FED-EXECUTIVE OFFICE
+project_sic_code_name,625,9199S - SLG-STATE GOVERNMENT
+project_sic_code_name,626,9223B - SLG-Governmental Retirement Plans
+project_sic_code_name,627,9224 - SLG-Fire Protection
+project_sic_code_name,628,9311S - SLG-STATE TREASURY/FINANCE
+project_sic_code_name,629,9312S - SLG-STATE LOTTERY/GAMING
+project_sic_code_name,630,9411D - SLG-SCHOOL DISTRICTS
+project_sic_code_name,631,9411E - SLG-CHARTERS
+project_sic_code_name,632,9411S - SLG-STATE EDUCATION
+project_sic_code_name,633,9431B - SLG-ADMIN PUB HEALTH
+project_sic_code_name,634,9431S - SLG-STATE HEALTH
+project_sic_code_name,635,"9511B - SLG-Air,Wtr,WasteMgt"
+project_sic_code_name,636,9531B - SLG-HsngProgHSNG/URB
+project_sic_code_name,637,9611B - SLG-ADMN GEN ECONOMC
+project_sic_code_name,638,9621S - SLG-STATE TRANSPORTATION
+project_sic_code_name,639,9631B - SLG-REG/ADMN UTILITY
+project_sic_code_name,640,9631S - SLG-STATE PUBLIC UTILITIES
+project_sic_code_name,641,9651B - SLG-REG MISC COM SEC
+project_sic_code_name,642,"9999B - SLG-COUNTY,CITY,TOWN,VILLAG"
+project_sic_code_name,643,9999C - SLG-PARK DISTRICTS
+project_sic_code_name,644,9999D - SLG-TRIBAL GVMT ENT
+project_sic_code_name,645,9999E - SLG-AIRPORTS
+project_sic_code_name,646,9999F - SLG-PORT AUTHORITIES
+project_sic_code_name,647,9999H - SLG-MASS TRSNT DIST
+project_sic_code_name,648,9999I - SLG-OTH SPCL DIST
+project_sic_code_name,649,9999J - SLG-OTH COMPONENTS
+project_sic_code_name,650,99ZZZ - UN-New Acquisition
+project_sic_code_name,651,Unknown
