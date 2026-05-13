@@ -1,0 +1,42 @@
+{
+  "generated_utc": "2026-05-13T20:22:13Z",
+  "top_n": 10,
+  "population": {
+    "top_count": 10,
+    "rest_count": 10,
+    "total_ranked_count": 20
+  },
+  "lift_metrics": {
+    "avg_propensity_score": {
+      "top": 0.5157,
+      "rest": 0.0055,
+      "lift": 93.7636
+    },
+    "active_engagement_rate_pct": {
+      "top": 60.0,
+      "rest": 100.0,
+      "lift": 0.6
+    },
+    "network_connected_rate_pct": {
+      "top": 30.0,
+      "rest": 30.0,
+      "lift": 1.0
+    },
+    "actionable_rate_pct": {
+      "top": 80.0,
+      "rest": 100.0,
+      "lift": 0.8
+    }
+  },
+  "execution_metrics": {
+    "rows": 10,
+    "owner_assigned_pct": 100.0,
+    "due_date_set_pct": 100.0,
+    "stage_progressed_pct": 0.0
+  },
+  "notes": [
+    "This is a weekly decision-support scorecard.",
+    "Lift indicates how much stronger Top-N is than Rest on selected indicators.",
+    "Actionability proxy = active projects > 0 OR relationship degree > 0."
+  ]
+}

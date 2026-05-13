@@ -152,6 +152,26 @@ outputs/ml_cross_sell_summary.md
 outputs/action_plans/top10_ml_cross_sell_pursuits.csv
 ```
 
+### 5) Weekly Model Lift Scorecard
+
+Script: `src/weekly_model_lift_scorecard.py`
+
+Goal:
+- Quantify model lift (Top-N vs Rest) and weekly execution quality.
+
+Run:
+
+```bash
+uv run src/weekly_model_lift_scorecard.py --top-n 10
+```
+
+Outputs:
+
+```text
+outputs/weekly_model_lift_scorecard.json
+outputs/weekly_model_lift_scorecard.md
+```
+
 ## Quick Start
 
 From repo root:
