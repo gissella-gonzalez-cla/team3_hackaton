@@ -26,6 +26,7 @@ All scripts are in `src/` and can be run with `uv`.
 Graph-based output report:
 - `docs/analysis_graph_outputs.md`
 - `docs/analysis_graph_outputs.html` (browser-rendered graphs)
+- `docs/model_goal_readme.md` (model explanation and goal alignment)
 
 Leadership-ready summary output:
 - `outputs/leader_brief.md`
