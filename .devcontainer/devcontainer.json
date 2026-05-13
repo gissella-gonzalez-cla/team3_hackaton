@@ -1,0 +1,33 @@
+{
+    "name": "Python Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+    "containerEnv": {
+        "PYTHON_VERSION": "3.12.3",
+        "DATABRICKS_CLI_VERSION": "main",
+        "SSH_AUTH_SOCK": "/ssh-agent",
+        "HOME": "/home/vscode"
+    },
+    "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh",
+    "mounts": [
+        "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind",
+        "source=${localEnv:HOME}/.databrickscfg,target=/home/vscode/.databrickscfg,type=bind",
+        "source=/home/gonz59483/repos/ado-workgen,target=/opt/workgen,type=bind"
+    ],
+    "remoteUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "njpwerner.autodocstring",
+                "ms-azure-devops.azure-pipelines",
+                "charliermarsh.ruff",
+                "redhat.vscode-yaml",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}

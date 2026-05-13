@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team 3 Hackathon - Analysis Graph Outputs</title>
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true, theme: "default" });
+  </script>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      margin: 24px;
+      color: #1f2937;
+      background: #f8fafc;
+    }
+    h1, h2, h3 { color: #0f172a; }
+    .card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 12px 0;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Team 3 Hackathon: Analysis Outputs in Graphs</h1>
+  <p>Generated from shared outputs on May 13, 2026.</p>
+
+  <h2>1) Entity View</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Client Status</h3>
+      <pre class="mermaid">pie title Client Status Distribution (n=82)
+    "Active" : 74
+    "Prospect" : 4
+    "Inactive" : 4</pre>
+    </div>
+    <div class="card">
+      <h3>Industry L2</h3>
+      <pre class="mermaid">pie title Industry Distribution L2
+    "Industrials" : 21
+    "Financial Services and Real Estate" : 16
+    "Other Industries" : 13
+    "Service Industries" : 12
+    "Health Care" : 10
+    "Public Sector" : 10</pre>
+    </div>
+    <div class="card">
+      <h3>Top States</h3>
+      <pre class="mermaid">pie title State Distribution (Top 10)
+    "TN" : 5
+    "MA" : 4
+    "AL" : 3
+    "KS" : 3
+    "CO" : 3
+    "MO" : 3
+    "ME" : 3
+    "WI" : 3
+    "NV" : 3
+    "WV" : 3</pre>
+    </div>
+  </div>
+
+  <h2>2) Relationship View</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Relationship Type Distribution</h3>
+      <pre class="mermaid">pie title Relationship Types (n=41)
+    "PARENT_CHILD" : 18
+    "AFFILIATE" : 12
+    "OWNERSHIP" : 9
+    "SHARED_LEADERSHIP" : 1
+    "SUCCESSOR" : 1</pre>
+    </div>
+    <div class="card">
+      <h3>Example Network</h3>
+      <pre class="mermaid">graph LR
+    C100377[North Ridge Health Group] -->|PARENT_CHILD| C100804[North Ridge Dental Holdings LLC]
+    C100377 -->|PARENT_CHILD| C100869[North Ridge Dental - Iowa]
+    C100377 -->|PARENT_CHILD| C101020[North Ridge Dental - Wisconsin]
+    C100377 -->|PARENT_CHILD| C101212[North Ridge Specialty Surgery LLC]
+    C101295[Cascade Equity Partners] -->|OWNERSHIP| C101579[Cascade-backed Lakeside Manufacturing]
+    C101295 -->|OWNERSHIP| C101820[Cascade-backed Apex Logistics LLC]
+    C101295 -->|OWNERSHIP| C102316[Cascade-backed BrightLeaf Foods]</pre>
+    </div>
+  </div>
+
+  <h2>3) Engagement View</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Service Line L2 Usage</h3>
+      <pre class="mermaid">pie title Service Line L2 Usage (n=142)
+    "Assurance" : 56
+    "Tax" : 45
+    "Outsourcing" : 21
+    "Digital" : 20</pre>
+    </div>
+    <div class="card">
+      <h3>Project Status</h3>
+      <pre class="mermaid">pie title Project Status Distribution
+    "Active" : 81
+    "Completed" : 61</pre>
+    </div>
+    <div class="card">
+      <h3>Billable Split</h3>
+      <pre class="mermaid">pie title Billable Distribution
+    "true" : 135
+    "false" : 7</pre>
+    </div>
+  </div>
+</body>
+</html>
