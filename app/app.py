@@ -1,21 +1,21 @@
 """
-CLA Shared Client Relationship View
-======================================
-A Databricks App (Streamlit) serving two core functions:
-    1. Stronger upfront data collection from CRL client interactions
-    2. Better centralized reporting on client ontologies, health, and opportunity
-
-Built with the "One-Firm" mindset: clients belong to the firm, CRLs are relationship
-leads. This enables firmwide visibility into growth, risk, and coordination.
+CLA One Firm View
+==================
+A Databricks App (Streamlit) providing firmwide client relationship
+intelligence. CRLs use the sidebar to manage their profile, and the
+main pages to explore client families and manage opportunities.
 """
 
 import streamlit as st
+from utils.sample_data import (
+    get_all_entities, get_crl_actions, CRL_NAMES,
+)
 
 st.set_page_config(
-    page_title="CLA | Shared Client Relationship View",
+    page_title="CLA | One Firm View",
     page_icon="C",
     layout="wide",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_state="expanded",
 )
 
 # CLA Brand CSS
@@ -78,19 +78,6 @@ st.markdown("""
     .module-card h3 { margin: 0 0 0.5rem 0; font-size: 1.1rem; font-weight: 600; }
     .module-card p { margin: 0; opacity: 0.9; font-size: 0.88rem; line-height: 1.5; }
 
-    .purpose-badge {
-        display: inline-block;
-        padding: 0.25rem 0.75rem;
-        border-radius: 4px;
-        font-size: 0.7rem;
-        font-weight: 600;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        margin-bottom: 0.75rem;
-    }
-    .badge-collection { background: #C2EAEA; color: #24787A; }
-    .badge-reporting { background: #262A40; color: #7DD2D3; }
-
     .def-header {
         font-weight: 600;
         color: var(--cla-navy);
@@ -98,10 +85,8 @@ st.markdown("""
         margin-bottom: 0.25rem;
     }
 
-    /* Override Streamlit's default link color */
     a { color: var(--cla-riptide-shade); }
 
-    /* Sidebar branding */
     [data-testid="stSidebar"] {
         background-color: var(--cla-cloud);
     }
@@ -109,95 +94,94 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-def main():
-    # Sidebar
-    st.sidebar.title("CLA Client View")
-    st.sidebar.caption("One Firm. Shared Relationships. Better Decisions.")
+def _build_sidebar():
+    """Build the CRL profile sidebar with Quick Pulse metrics."""
+    st.sidebar.title("CRL Profile")
 
     if "crl_name" not in st.session_state:
         st.session_state.crl_name = ""
 
-    crl_name = st.sidebar.text_input(
-        "CRL (Relationship Lead)",
-        value=st.session_state.crl_name,
-        placeholder="e.g., Rypina, Katarzyna",
+    crl_name = st.sidebar.selectbox(
+        "Select Your Name",
+        options=[""] + CRL_NAMES,
+        index=0,
+        format_func=lambda x: "Choose a CRL..." if x == "" else x,
     )
     st.session_state.crl_name = crl_name
 
-    st.sidebar.divider()
-    st.sidebar.markdown("**Platform Purpose**")
-    st.sidebar.markdown("""
-    - **Reporting** — Firmwide client ontology, health, risk
-    - **Collection** — Structured meeting data from CRL interactions
-    """)
-    st.sidebar.divider()
-    st.sidebar.markdown("**Quick Pulse**")
-    st.sidebar.metric("Firm Clients (Active)", "312")
-    st.sidebar.metric("Open Opportunities", "47")
-    st.sidebar.metric("Meetings This Week", "23")
+    entities_df = get_all_entities()
+    total_firm_clients = len(entities_df[entities_df["is_served"]])
+
+    if crl_name:
+        # CRL-specific metrics
+        crl_clients = entities_df[
+            (entities_df["crl_owner"] == crl_name) & (entities_df["is_served"])
+        ]
+        crl_client_count = len(crl_clients)
+        pct_of_firm = round(crl_client_count / total_firm_clients * 100, 1) if total_firm_clients > 0 else 0
+        healthy_count = len(crl_clients[crl_clients["health_status"] == "Healthy"])
+
+        st.sidebar.divider()
+        st.sidebar.markdown("**Quick Pulse**")
+        st.sidebar.metric("% of Firm Clients", f"{pct_of_firm}%")
+        st.sidebar.metric("My Clients", crl_client_count)
+        st.sidebar.metric("Healthy Clients", healthy_count)
+
+        # Action counts
+        actions_df = get_crl_actions(crl_name)
+        if not actions_df.empty:
+            immediate = len(actions_df[actions_df["urgency"] == "Immediate"])
+            this_week = len(actions_df[actions_df["urgency"] == "This Week"])
+            upcoming = len(actions_df[actions_df["urgency"] == "Upcoming"])
+        else:
+            immediate = this_week = upcoming = 0
+
+        st.sidebar.divider()
+        st.sidebar.markdown("**Actions**")
+        st.sidebar.metric("Immediate", immediate, help="Check-ins/meetings due today or tomorrow")
+        st.sidebar.metric("This Week", this_week, help="Actions due within the next 7 days")
+        st.sidebar.metric("Upcoming (30 days)", upcoming, help="Actions due within the next month")
+    else:
+        st.sidebar.divider()
+        st.sidebar.info("Select your name to see your Quick Pulse.")
+
+
+def main():
+    _build_sidebar()
 
     # --- Hero Section ---
     st.markdown("""
     <div class="hero-card">
-        <h2>CLA Shared Client Relationship View</h2>
+        <h2>One Firm View</h2>
         <p>
-            A unified, trusted view of client relationships across the firm — enabling smarter growth, 
-            proactive risk awareness, and coordinated decision-making. Built on the <strong>One-Firm</strong> 
+            A unified, trusted view of client relationships across the firm — enabling smarter growth,
+            proactive risk awareness, and coordinated decision-making. Built on the <strong>One-Firm</strong>
             principle: every client is a firm client, and every CRL is a steward of the relationship.
         </p>
     </div>
     """, unsafe_allow_html=True)
 
-    # --- Dual Purpose Banner ---
-    st.markdown("### This platform serves two core functions:")
-    col_purpose1, col_purpose2 = st.columns(2)
-    with col_purpose1:
-        st.markdown("""
-        <span class="purpose-badge badge-reporting">CENTRALIZED REPORTING</span>
-        
-        **Firmwide client ontology visualization** — aggregated views of health, risk, 
-        and opportunity stratified by geography, service line, and industry. Leaders 
-        see the full relationship network, not just their slice.
-        """, unsafe_allow_html=True)
-    with col_purpose2:
-        st.markdown("""
-        <span class="purpose-badge badge-collection">DATA COLLECTION</span>
-        
-        **Structured CRL check-in workflow** — front-end guardrails that ensure 
-        consistent, high-quality data capture during every client interaction. 
-        Like a doctor's intake form — the right fields, every time.
-        """, unsafe_allow_html=True)
-
-    st.divider()
-
     # --- Module Cards ---
-    st.markdown("### Modules")
-    col1, col2, col3 = st.columns(3)
+    st.markdown("### Navigate")
+    col1, col2 = st.columns(2)
 
     with col1:
         st.markdown("""
         <div class="module-card" style="background: #2E334E;">
-            <h3>One-Firm View</h3>
-            <p>Firmwide entity ontology — node graph showing served vs. unserved entities, 
-            cluster health, and seamless analysis. See all entities as firm assets.</p>
+            <h3>Client Family Explorer</h3>
+            <p>Firmwide client family view — node graph showing served vs. unserved entities,
+            family health, and seamless analysis. Select a client family to explore its entity web,
+            then drill into individual nodes for details.</p>
         </div>
         """, unsafe_allow_html=True)
 
     with col2:
         st.markdown("""
         <div class="module-card" style="background: #39A5A7;">
-            <h3>Opportunities</h3>
-            <p>Unserved entities and service gaps. Drill into specific entities, 
-            see their position in the ontology, and track billing health for seamless growth.</p>
-        </div>
-        """, unsafe_allow_html=True)
-
-    with col3:
-        st.markdown("""
-        <div class="module-card" style="background: #24787A;">
-            <h3>CRL Check-In</h3>
-            <p>Structured intake form — collect entity relationships, ownership structures, 
-            service discussions, health signals, and consent. Better data = stronger ontologies.</p>
+            <h3>Opportunity Manager</h3>
+            <p>Manage your leads and opportunities from a dashboard summary view.
+            Drill into unserved entities and service gaps. Track client events and check-ins
+            to strengthen relationships and drive seamless growth.</p>
         </div>
         """, unsafe_allow_html=True)
 
@@ -205,76 +189,38 @@ def main():
 
     # --- Key Definitions ---
     st.markdown("### Key Definitions")
-    st.markdown("These four concepts drive everything in this platform:")
-
     col_def1, col_def2 = st.columns(2)
     with col_def1:
+        st.markdown('<p class="def-header">Client Family</p>', unsafe_allow_html=True)
         st.markdown("""
-        <p class="def-header">Ontology</p>
-        """, unsafe_allow_html=True)
-        st.markdown("""
-        The web of complex relationships between client entities. A 1065 partnership 
-        with 5 partners, a working partnership with another 1065 — the ontology maps 
-        these connections as nodes and edges. **Riptide nodes** = entities we serve. 
-        **Scarlett nodes** = entities we don't (opportunities). Partners, trusts, corps, 
-        and individuals all interconnect.
+        The web of complex relationships between client entities. A 1065 partnership
+        with 5 partners, a working partnership with another 1065 — the client family maps
+        these connections as nodes and edges. **Riptide nodes** = entities we serve.
+        **Scarlett nodes** = entities we don't (opportunities).
         """)
         st.markdown("---")
+        st.markdown('<p class="def-header">Opportunities</p>', unsafe_allow_html=True)
         st.markdown("""
-        <p class="def-header">Opportunities</p>
-        """, unsafe_allow_html=True)
-        st.markdown("""
-        Two types: (1) **Unserved entities** — nodes in the ontology we haven't engaged yet, 
-        and (2) **Service gaps** — clients we serve but with missing service lines 
-        (Assurance, Tax, BizOps, Digital). Both represent revenue we should pursue.
+        Two types: (1) **Unserved entities** — nodes in the family we haven't engaged yet,
+        and (2) **Service gaps** — clients we serve but with missing service lines.
         """)
 
     with col_def2:
+        st.markdown('<p class="def-header">Health</p>', unsafe_allow_html=True)
         st.markdown("""
-        <p class="def-header">Health</p>
-        """, unsafe_allow_html=True)
-        st.markdown("""
-        Based on our **90-day AR policy**:
-        - **Healthy** — Payment or check-in within 30 days
-        - **Strained** — 30-59 days of no check-ins or payments
-        - **Poor** — 60+ days overdue. Relationship deteriorating.
+        Based on **AR recency + client tenure**:
+        - **Healthy** — Recent activity; long-term clients earn grace for loyalty
+        - **Strained** — Activity gap growing; needs attention
+        - **Poor** — Significant gap. Relationship at risk.
+
+        Clients with multi-year tenure and recurring contracts maintain stability.
         """)
         st.markdown("---")
+        st.markdown('<p class="def-header">Seamless</p>', unsafe_allow_html=True)
         st.markdown("""
-        <p class="def-header">Seamless</p>
-        """, unsafe_allow_html=True)
-        st.markdown("""
-        When we provide bundled services (e.g., Assurance + Tax) to the same client. 
-        We pursue seamless growth because it: (1) increases revenue extraction, and 
-        (2) increases client retention through higher barriers to exit. A client with 
-        3+ service lines is deeply embedded and unlikely to leave.
+        Bundled services (e.g., Assurance + Tax) to the same client. Increases
+        revenue extraction and retention through higher barriers to exit.
         """)
-
-    st.divider()
-
-    # --- The "Why" ---
-    st.markdown("### Why This Matters")
-    st.markdown("""
-    > *"What do we know about this client relationship network, and what should we do next?"*
-    
-    Today, relationship context is **fragmented** across CRM, engagement, financial, and operational 
-    systems. Entity relationships aren't consistently mapped. Unserved nodes are invisible. Seamless 
-    growth stalls because no one sees the full picture.
-    
-    This platform brings entity ontologies, health signals, and opportunity data into **one shared view** — 
-    so leaders can shift from reactive updates to **proactive, coordinated growth**.
-    """)
-
-    col_w1, col_w2, col_w3 = st.columns(3)
-    with col_w1:
-        st.markdown("**Entity Ontology**")
-        st.markdown("Node mapping, partnership structures, ownership webs, connected entities across clusters")
-    with col_w2:
-        st.markdown("**Health & AR Signals**")
-        st.markdown("90-day AR policy compliance, check-in recency, billing trends, risk escalation")
-    with col_w3:
-        st.markdown("**Seamless Growth**")
-        st.markdown("Service bundling progress, cross-sell gaps, retention barriers, revenue extraction per entity")
 
 
 if __name__ == "__main__":

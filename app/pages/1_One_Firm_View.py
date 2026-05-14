@@ -1,6 +1,6 @@
 """
-One-Firm View — Client Ontology & Firmwide Health
-===================================================
+Client Family Explorer — Firmwide Health & Relationships
+=========================================================
 CLA Brand Colors:
 - Riptide #7DD2D3 = Served / Healthy
 - Saffron #FBC55A = Strained
@@ -29,9 +29,9 @@ CLA_CHARCOAL = "#25282A"
 CLA_SMOKE = "#ABAEAB"
 CLA_CLOUD = "#F7F7F6"
 
-st.set_page_config(page_title="One-Firm View", page_icon="C", layout="wide")
+st.set_page_config(page_title="One Firm View", page_icon="C", layout="wide")
 
-st.title("One-Firm View")
+st.title("One Firm View")
 st.caption("Every client is a firm client. CRLs are stewards. Riptide = served. Scarlett = opportunity.")
 
 entities_df = get_all_entities()
@@ -50,17 +50,17 @@ with col1:
 with col2:
     st.metric("Served", len(served_df))
 with col3:
-    unserved = entities_df[(~entities_df["is_served"]) & (entities_df["annual_revenue_mm"] > 0)]
+    unserved = entities_df[(~entities_df["is_served"]) & (entities_df["annual_revenue_k"] > 0)]
     st.metric("Unserved", len(unserved))
 with col4:
     healthy = served_df[served_df["health_status"] == "Healthy"].shape[0]
-    st.metric("Healthy (<30d)", healthy)
+    st.metric("Healthy", healthy)
 with col5:
     strained = served_df[served_df["health_status"] == "Strained"].shape[0]
-    st.metric("Strained (30-60d)", strained)
+    st.metric("Strained", strained)
 with col6:
     poor = served_df[served_df["health_status"] == "Poor"].shape[0]
-    st.metric("Poor (60+d)", poor)
+    st.metric("Poor", poor)
 
 # Health bar
 total_served = len(served_df)
@@ -78,27 +78,27 @@ st.divider()
 # =============================================================================
 # TABS
 # =============================================================================
-tab_ontology, tab_clusters, tab_health, tab_seamless = st.tabs([
-    "Client Ontology Graph", "Cluster Overview", "Health Monitor", "Seamless Analysis"
+tab_family, tab_overview, tab_health, tab_seamless = st.tabs([
+    "Client Family Graph", "Family Overview", "Health Monitor", "Seamless Analysis"
 ])
 
 # =============================================================================
-# TAB 1: ONTOLOGY GRAPH
+# TAB 1: CLIENT FAMILY GRAPH
 # =============================================================================
-with tab_ontology:
-    st.subheader("Client Entity Ontology")
+with tab_family:
+    st.subheader("Client Family Relationship Graph")
     st.markdown("""
     **How to read this graph:**
     - **Riptide nodes** = Entities we currently serve (engaged)
     - **Scarlett nodes** = Entities we do NOT serve (opportunities)
     - **Lines** = Relationships (partner, owner, dependent, working partnership)
     - **Node size** = Revenue scale
-    
-    Select a client cluster to explore its entity web:
+
+    Select a client family to explore its entity web. Click on individual nodes for details.
     """)
 
     cluster_names = [c["cluster_name"] for c in ENTITY_CLUSTERS]
-    selected_cluster = st.selectbox("Select Client Cluster", cluster_names)
+    selected_cluster = st.selectbox("Select Client Family", cluster_names)
 
     cluster_data = next(c for c in ENTITY_CLUSTERS if c["cluster_name"] == selected_cluster)
     cluster_entities = entities_df[entities_df["cluster_name"] == selected_cluster]
@@ -113,7 +113,7 @@ with tab_ontology:
             entity["id"],
             name=entity["name"],
             entity_type=entity["type"],
-            revenue=entity["revenue_mm"],
+            revenue=entity["revenue_k"],
             served=entity["id"] in engagements,
             services=engagements.get(entity["id"], []),
         )
@@ -173,16 +173,21 @@ with tab_ontology:
         else:
             node_colors.append(CLA_SCARLETT)
 
-        size = max(15, min(50, 15 + data["revenue"] * 0.5))
+        size = max(15, min(50, 15 + data["revenue"] * 0.3))
         node_sizes.append(size)
 
         name = data["name"]
         node_texts.append(name[:20] + "..." if len(name) > 20 else name)
 
         services_str = ", ".join(data["services"]) if data["services"] else "None"
+        tenure_str = ""
+        if is_served and node_id in cluster_entities["entity_id"].values:
+            years = cluster_entities[cluster_entities["entity_id"] == node_id]["years_with_cla"].iloc[0]
+            tenure_str = f"<br>Tenure: {years} years"
+
         hover_texts.append(
-            f"<b>{name}</b><br>Type: {data['entity_type']}<br>Revenue: ${data['revenue']:.1f}MM<br>"
-            f"Status: {'Served' if is_served else 'Not Served'}<br>Services: {services_str}"
+            f"<b>{name}</b><br>Type: {data['entity_type']}<br>Revenue: ${data['revenue']:.1f}K<br>"
+            f"Status: {'Served' if is_served else 'Not Served'}<br>Services: {services_str}{tenure_str}"
         )
 
     fig = go.Figure()
@@ -202,7 +207,7 @@ with tab_ontology:
     fig.add_trace(go.Scatter(x=[None], y=[None], mode="markers", marker=dict(size=12, color=CLA_SCARLETT), name="Not Served / Poor"))
 
     fig.update_layout(
-        title=f"Entity Ontology — {selected_cluster}",
+        title=f"Client Family — {selected_cluster}",
         height=600,
         xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
         yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
@@ -213,27 +218,30 @@ with tab_ontology:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    # Entity table
+    # Entity detail selector within family
     st.markdown("---")
     st.markdown(f"**Entities in {selected_cluster}:**")
-    display_cols = ["entity_name", "entity_type", "is_served", "services_engaged", "health_status", "annual_revenue_mm", "geography"]
+    st.caption("Select a node below for further details.")
+
+    display_cols = ["entity_name", "entity_type", "is_served", "services_engaged", "health_status", "years_with_cla", "annual_revenue_k", "geography"]
     st.dataframe(
-        cluster_entities[display_cols].sort_values("annual_revenue_mm", ascending=False),
+        cluster_entities[display_cols].sort_values("annual_revenue_k", ascending=False),
         use_container_width=True, hide_index=True,
         column_config={
             "entity_name": "Entity", "entity_type": "Type", "is_served": "Served?",
             "services_engaged": "Services", "health_status": "Health",
-            "annual_revenue_mm": st.column_config.NumberColumn("Revenue ($MM)", format="$%.1f"),
+            "years_with_cla": "Tenure (Years)",
+            "annual_revenue_k": st.column_config.NumberColumn("Revenue ($K)", format="$%.1f"),
             "geography": "Geography",
         },
     )
 
 # =============================================================================
-# TAB 2: CLUSTER OVERVIEW
+# TAB 2: FAMILY OVERVIEW
 # =============================================================================
-with tab_clusters:
-    st.subheader("Client Cluster Portfolio")
-    st.caption("Each cluster is a web of related entities (partnerships, individuals, trusts, corps)")
+with tab_overview:
+    st.subheader("Client Family Portfolio")
+    st.caption("Each family is a web of related entities (partnerships, individuals, trusts, corps)")
 
     col_f1, col_f2 = st.columns(2)
     with col_f1:
@@ -242,15 +250,16 @@ with tab_clusters:
         ind_filter = st.multiselect("Filter by Industry", entities_df["industry"].unique().tolist())
 
     st.dataframe(
-        cluster_summary.sort_values("total_revenue_mm", ascending=False),
+        cluster_summary.sort_values("total_revenue_k", ascending=False),
         use_container_width=True, hide_index=True,
         column_config={
-            "cluster_name": "Client Cluster", "total_entities": "Total Entities",
+            "cluster_name": "Client Family", "total_entities": "Total Entities",
             "served_entities": "Served", "unserved_entities": "Unserved",
-            "total_revenue_mm": st.column_config.NumberColumn("Total Revenue ($MM)", format="$%.1f"),
-            "served_revenue_mm": st.column_config.NumberColumn("Served Revenue ($MM)", format="$%.1f"),
+            "total_revenue_k": st.column_config.NumberColumn("Total Revenue ($K)", format="$%.1f"),
+            "served_revenue_k": st.column_config.NumberColumn("Served Revenue ($K)", format="$%.1f"),
             "penetration_pct": st.column_config.NumberColumn("Penetration %", format="%.1f%%"),
             "avg_seamless": st.column_config.NumberColumn("Avg Seamless Score", format="%.1f"),
+            "avg_tenure_years": st.column_config.NumberColumn("Avg Tenure (Years)", format="%.1f"),
             "healthy_count": "Healthy", "strained_count": "Strained", "poor_count": "Poor",
         },
     )
@@ -260,7 +269,7 @@ with tab_clusters:
         x="penetration_pct", y="cluster_name", orientation="h",
         color="penetration_pct",
         color_continuous_scale=[CLA_SCARLETT, CLA_SAFFRON, CLA_RIPTIDE],
-        title="Cluster Penetration Rate (% of entities served)",
+        title="Client Family Penetration Rate (% of entities served)",
         labels={"penetration_pct": "Penetration %", "cluster_name": ""},
     )
     fig_pen.update_layout(height=350, font=dict(family="Calibri, Arial, sans-serif"), plot_bgcolor="white")
@@ -272,10 +281,13 @@ with tab_clusters:
 with tab_health:
     st.subheader("Relationship Health Monitor")
     st.markdown("""
-    Health is based on our **90-day AR policy**:
-    - **Healthy** — Payment received or check-in within 30 days
-    - **Strained** — 30-59 days since last payment or meaningful check-in
-    - **Poor** — 60+ days overdue. Relationship at risk of deterioration.
+    Health is based on **AR recency + client tenure**:
+    - **Healthy** — Recent activity or long-term client with stable history
+    - **Strained** — Activity gap growing; needs a check-in
+    - **Poor** — Significant gap. Relationship at risk.
+
+    Long-term clients (3+ years) earn grace for loyalty. Multi-service
+    clients have additional resilience.
     """)
 
     health_pivot = served_df.groupby(["cluster_name", "health_status"]).size().unstack(fill_value=0).reset_index()
@@ -286,7 +298,7 @@ with tab_health:
     fig_health = px.bar(
         health_pivot, x="cluster_name", y=["Healthy", "Strained", "Poor"], barmode="stack",
         color_discrete_map={"Healthy": CLA_RIPTIDE, "Strained": CLA_SAFFRON, "Poor": CLA_SCARLETT},
-        title="Health Status by Client Cluster",
+        title="Health Status by Client Family",
         labels={"value": "Entity Count", "cluster_name": ""},
     )
     fig_health.update_layout(height=400, font=dict(family="Calibri, Arial, sans-serif"), plot_bgcolor="white")
@@ -297,12 +309,13 @@ with tab_health:
 
     if not at_risk.empty:
         st.dataframe(
-            at_risk[["entity_name", "cluster_name", "health_status", "days_since_activity", "services_engaged", "annual_revenue_mm", "crl_owner"]],
+            at_risk[["entity_name", "cluster_name", "health_status", "years_with_cla", "days_since_activity", "services_engaged", "annual_revenue_k", "crl_owner"]],
             use_container_width=True, hide_index=True,
             column_config={
-                "entity_name": "Entity", "cluster_name": "Cluster", "health_status": "Status",
+                "entity_name": "Entity", "cluster_name": "Client Family", "health_status": "Status",
+                "years_with_cla": "Tenure (Years)",
                 "days_since_activity": "Days Since Activity", "services_engaged": "Services",
-                "annual_revenue_mm": st.column_config.NumberColumn("Revenue ($MM)", format="$%.1f"),
+                "annual_revenue_k": st.column_config.NumberColumn("Revenue ($K)", format="$%.1f"),
                 "crl_owner": "CRL Steward",
             },
         )
@@ -315,11 +328,8 @@ with tab_health:
 with tab_seamless:
     st.subheader("Seamless Analysis")
     st.markdown("""
-    **Seamless** = Bundled services to the same client. Benefits:
-    - Higher revenue extraction per client
-    - Stronger retention (higher barriers to exit)
-    - Deeper relationship = better data = better modeling
-    
+    **Seamless** = Bundled services to the same client.
+
     | Score | Status | Retention Risk |
     |-------|--------|----------------|
     | 1 service | Single Service | HIGH — easy to leave |
@@ -344,16 +354,17 @@ with tab_seamless:
     st.plotly_chart(fig_seamless, use_container_width=True)
 
     st.markdown("**Single-Service Entities (High Exit Risk):**")
-    single_svc = seamless_df[seamless_df["seamless_status"] == "Single Service (At Risk)"].sort_values("annual_revenue_mm", ascending=False)
+    single_svc = seamless_df[seamless_df["seamless_status"] == "Single Service (At Risk)"].sort_values("annual_revenue_k", ascending=False)
 
     if not single_svc.empty:
         st.dataframe(
-            single_svc[["entity_name", "cluster_name", "services_engaged", "services_not_engaged", "annual_revenue_mm", "health_status"]],
+            single_svc[["entity_name", "cluster_name", "services_engaged", "services_not_engaged", "years_with_cla", "annual_revenue_k", "health_status"]],
             use_container_width=True, hide_index=True,
             column_config={
-                "entity_name": "Entity", "cluster_name": "Cluster",
+                "entity_name": "Entity", "cluster_name": "Client Family",
                 "services_engaged": "Current Service", "services_not_engaged": "Available for Seamless",
-                "annual_revenue_mm": st.column_config.NumberColumn("Revenue ($MM)", format="$%.1f"),
+                "years_with_cla": "Tenure (Years)",
+                "annual_revenue_k": st.column_config.NumberColumn("Revenue ($K)", format="$%.1f"),
                 "health_status": "Health",
             },
         )
@@ -361,17 +372,17 @@ with tab_seamless:
     st.markdown("---")
     st.markdown("**Service Line Opportunity (available for seamless bundling):**")
 
-    service_opp = {"Service Line": [], "Entities Not Receiving": [], "Revenue at Stake ($MM)": []}
+    service_opp = {"Service Line": [], "Entities Not Receiving": [], "Revenue at Stake ($K)": []}
     for svc in SERVICE_LINES:
         not_receiving = seamless_df[seamless_df["services_not_engaged"].apply(lambda x: svc in x)]
         service_opp["Service Line"].append(svc)
         service_opp["Entities Not Receiving"].append(len(not_receiving))
-        service_opp["Revenue at Stake ($MM)"].append(round(not_receiving["annual_revenue_mm"].sum(), 1))
+        service_opp["Revenue at Stake ($K)"].append(round(not_receiving["annual_revenue_k"].sum(), 1))
 
     svc_opp_df = pd.DataFrame(service_opp)
     fig_svc = px.bar(
         svc_opp_df, x="Service Line", y="Entities Not Receiving",
-        color="Revenue at Stake ($MM)", color_continuous_scale=[CLA_SAFFRON, CLA_SCARLETT],
+        color="Revenue at Stake ($K)", color_continuous_scale=[CLA_SAFFRON, CLA_SCARLETT],
         title="Seamless Expansion Opportunity by Service Line", text="Entities Not Receiving",
     )
     fig_svc.update_layout(height=350, font=dict(family="Calibri, Arial, sans-serif"), plot_bgcolor="white")

@@ -1,6 +1,35 @@
-# team3_hackaton
+# team3_hackaton — CLA One Firm View
 
 Central repo for Team 3 hackathon work (May 2026).
+
+## Application — One Firm View
+
+A Databricks App (Streamlit) providing two core functions:
+
+1. **Centralized Reporting** — Firmwide client family visualization, aggregated views of health, risk, and opportunity stratified by geography, service line, and industry.
+2. **Structured Data Collection** — CRL check-in workflow with front-end guardrails for consistent, high-quality data capture during every client interaction.
+
+### Running the App
+
+```bash
+cd app
+streamlit run app.py
+```
+
+### Pages
+
+| Page | Purpose |
+|------|---------|
+| **Home (app.py)** | CRL profile sidebar with Quick Pulse metrics; key definitions |
+| **Client Family Explorer** | Firmwide client family graph, family overview, health monitor, seamless analysis |
+| **Opportunity Manager** | New leads (unserved entities), service gaps, entity drill-down, check-in form, history |
+
+### Key Concepts
+
+- **Client Family**: The web of complex relationships between client entities (partnerships, individuals, trusts, corps).
+- **Health**: Based on AR recency + client tenure. Long-term clients earn grace; multi-service clients have additional resilience.
+- **Seamless**: Bundled services increasing retention through higher barriers to exit.
+- **Opportunity**: Unserved entities (red nodes) or service gaps on served entities.
 
 ## Participants
 
