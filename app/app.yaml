@@ -1,15 +1,7 @@
-command: [
-  "streamlit", 
-  "run", 
-  "app.py"
-]
+command:
+  - python
+  - app.py
 
 env:
-  - name: DATABRICKS_HOST
-    valueFrom: "workspace"
-  - name: DATABRICKS_WAREHOUSE_ID
-    description: "SQL Warehouse ID for queries"
-  - name: DATABRICKS_CATALOG
-    value: "crl_intelligence"
-  - name: DATABRICKS_SCHEMA
-    value: "prod"
+  - name: DASH_DEBUG
+    value: "false"
